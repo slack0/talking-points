@@ -74,7 +74,7 @@ def get_corpus_topics(tfidf, model, n_topics):
         pp.pprint("\n-- Top words in topic:")
         topic_importance = dict(zip(id2word.values(),list(model.components_[topic_index])))
         sorted_topic_imp = sorted(topic_importance.items(), key=operator.itemgetter(1),reverse=True)
-        pp.pprint([i[0] for i in sorted_topic_imp[:15]])
+        #pp.pprint([i[0] for i in sorted_topic_imp[:15]])
         topics.append([i[0] for i in sorted_topic_imp])
 
     ''' list of all words sorted in descending order of importance for all topics '''
@@ -82,7 +82,7 @@ def get_corpus_topics(tfidf, model, n_topics):
 
 
 def print_top_topics(topics, n_topics=10):
-    pp.pprint([i[0] for i in topics[:n_topics]])
+    pp.pprint([i[0:9] for i in topics[:n_topics]])
 
 
 def extract_corpus_topics(corpus_path, num_topics):
@@ -90,17 +90,14 @@ def extract_corpus_topics(corpus_path, num_topics):
     ''' Parse contents of speech directory and get dictionaries '''
     proc_speech = parse_speeches(corpus_path)
 
-
     ''' TFIDF vectorization and generate vocabularies '''
     corpus_tfidf = TfidfVectorizer(tokenizer=tokenize, stop_words='english')
     tfs_corpus = corpus_tfidf.fit_transform(proc_speech.values())
 
     #print "Corpus TF vector shape: {}".format(tfs_corpus.shape)
 
-
     ''' Get the vocabulary from TF-IDF - for tokenizing in future steps '''
     corpus_vocab = corpus_tfidf.get_feature_names()
-
 
     ''' create a NMF model '''
     corpus_model = NMF(n_components=num_topics, init='random', random_state=0)
@@ -110,12 +107,9 @@ def extract_corpus_topics(corpus_path, num_topics):
     ''' get *all* words for each topic '''
     topics = get_corpus_topics(corpus_tfidf, corpus_model, num_topics)
 
-    ''' print top topics '''
-    print_top_topics(topics)
+    return corpus_vocab, corpusW, topics
 
-    return
-
-def extract_speech_excerpts(corpus_path, corpus_vocab, W):
+def extract_speech_excerpts(corpus_path, corpus_vocab, W, n_topics_from_doc=1, n_sentences_from_doc=5):
 
     ''' Parse contents of speech directory and get dictionaries '''
     raw_speech = parse_speeches(corpus_path, raw=True)
@@ -129,7 +123,6 @@ def extract_speech_excerpts(corpus_path, corpus_vocab, W):
     ''' Create a sentence TF-IDF instance using the corpus vocabulary '''
     sentence_tfidf = TfidfVectorizer(tokenizer=tokenize, stop_words='english', vocabulary=corpus_vocab)
 
-
     ''' iterate over raw speech text and speech_sentences '''
     for doc in raw_speech.iterkeys():
         #pp.pprint('Processing: ' + str(doc))
@@ -142,17 +135,25 @@ def extract_speech_excerpts(corpus_path, corpus_vocab, W):
             speech_sentences[doc][sentence_count] = sentence_without_punctuation
             sentence_count += 1
 
-    ''' map top topics to each document '''
+    ''' map topics to documents '''
+    for i,doc in enumerate(speech_sentences.iterkeys()):
+        ''' get indices of top topics in document '''
 
-        speech_tfs = sentence_tfidf.fit_transform(speech_hash[doc].values())
-        print "\nSpeech TF vector shape: {}".format(speech_tfs.shape)
 
 
-        ''' check the cosine similarity of each sentence against topic tfidfs '''
+
+
+        #speech_tfs = sentence_tfidf.fit_transform(speech_hash[doc].values())
+        #print "\nSpeech TF vector shape: {}".format(speech_tfs.shape)
+
+
+    ''' check the cosine similarity of each sentence against topic tfidfs '''
         #distances = cosine_similarity(speech_tfs,corpus_tfs)
         #print "Shape of cosine distance vector: {}".format(distances.shape)
 
         #pp.pprint(distances)
+
+    return
 
 
 
@@ -166,4 +167,9 @@ if __name__ == '__main__':
     path = '/Users/smuddu/galvanize/capstone/data/Speeches/Obama'
     #path = '/Users/smuddu/galvanize/capstone/data/Speeches/samples'
 
-    extract_corpus_topics(path,4)
+    vocab, doc2topic, topics = extract_corpus_topics(path,20)
+
+    ''' print top topics '''
+    print_top_topics(topics)
+
+
