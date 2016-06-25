@@ -35,7 +35,7 @@ def tokenize(text):
     return tokens
 
 
-def parse_speeches(corpus_path):
+def parse_speeches(corpus_path, raw=False):
     raw_sp2txt = {}
     proc_sp2txt = {}
     for subdir, dirs, files in os.walk(corpus_path):
@@ -57,7 +57,10 @@ def parse_speeches(corpus_path):
             no_punctuation = lowers.translate(None, string.punctuation)
             proc_sp2txt[each_file] = no_punctuation
 
-    return raw_sp2txt, proc_sp2txt
+    if (raw == True):
+        return raw_sp2txt
+    else:
+        return proc_sp2txt
 
 
 def get_corpus_topics(tfidf, model, n_topics):
@@ -82,10 +85,10 @@ def print_top_topics(topics, n_topics=10):
     pp.pprint([i[0] for i in topics[:n_topics]])
 
 
-def extract_topics(corpus_path, num_topics):
+def extract_corpus_topics(corpus_path, num_topics):
 
     ''' Parse contents of speech directory and get dictionaries '''
-    raw_speech, proc_speech = parse_speeches(corpus_path)
+    proc_speech = parse_speeches(corpus_path)
 
 
     ''' TFIDF vectorization and generate vocabularies '''
@@ -109,6 +112,8 @@ def extract_topics(corpus_path, num_topics):
 
     ''' print top topics '''
     print_top_topics(topics)
+
+    return
 
 
     ''' For each document/speech -- extract the top sentences based on their cosine similarity to topics discovered '''
@@ -154,4 +159,4 @@ if __name__ == '__main__':
     path = '/Users/smuddu/galvanize/capstone/data/Speeches/Obama'
     #path = '/Users/smuddu/galvanize/capstone/data/Speeches/samples'
 
-    extract_topics(path,4)
+    extract_corpus_topics(path,4)
