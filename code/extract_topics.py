@@ -115,27 +115,34 @@ def extract_corpus_topics(corpus_path, num_topics):
 
     return
 
+def extract_speech_excerpts(corpus_path, corpus_vocab, W):
 
-    ''' For each document/speech -- extract the top sentences based on their cosine similarity to topics discovered '''
-    speech_hash = defaultdict(dict)
+    ''' Parse contents of speech directory and get dictionaries '''
+    raw_speech = parse_speeches(corpus_path, raw=True)
 
     '''
-    Create a sentence TF-IDF instance using the corpus vocabulary
+    For each document/speech -- extract the top sentences
+    Create a dict of dicts to populate sentences for every speech in the corpus
     '''
+    speech_sentences = defaultdict(dict)
+
+    ''' Create a sentence TF-IDF instance using the corpus vocabulary '''
     sentence_tfidf = TfidfVectorizer(tokenizer=tokenize, stop_words='english', vocabulary=corpus_vocab)
 
-    for doc in proc_speech.iterkeys():
 
-        pp.pprint('Processing: ' + str(doc))
+    ''' iterate over raw speech text and speech_sentences '''
+    for doc in raw_speech.iterkeys():
+        #pp.pprint('Processing: ' + str(doc))
 
-        doc_blob = TextBlob(raw_text[doc])
+        doc_blob = TextBlob(raw_speech[doc])
         sentence_count = 0
         for sentence in doc_blob.sentences:
             ''' strip punctuation from the sentence now '''
             sentence_without_punctuation = str(sentence).translate(None, string.punctuation)
-            #pp.pprint('Adding sentence: ' + sentence_without_punctuation)
-            speech_hash[doc][sentence_count] = sentence_without_punctuation
+            speech_sentences[doc][sentence_count] = sentence_without_punctuation
             sentence_count += 1
+
+    ''' map top topics to each document '''
 
         speech_tfs = sentence_tfidf.fit_transform(speech_hash[doc].values())
         print "\nSpeech TF vector shape: {}".format(speech_tfs.shape)
