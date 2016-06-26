@@ -23,6 +23,9 @@ from nltk.stem.porter import PorterStemmer
 from sklearn.decomposition import NMF
 
 
+stemmer = PorterStemmer()
+pp = pprint.PrettyPrinter(indent=4)
+
 def stem_tokens(tokens, stemmer):
     stemmed = []
     for item in tokens:
@@ -116,12 +119,10 @@ def extract_corpus_topics(corpus_path, n_corpus_topics, n_doc_topics=1, n_summar
     ''' get *all* words for each topic '''
     topics = get_corpus_topics(corpus_tfidf, corpus_model, n_corpus_topics)
 
-    #return corpus_vocab, corpusW, topics, corpus_model
-
 #def extract_speech_excerpts(path, vocab, W, model, n_topics_from_doc=1, n_sentences_from_doc=5):
 
     ''' Parse contents of speech directory and get dictionaries '''
-    raw_speech = parse_speeches(path, raw=True)
+    raw_speech = parse_speeches(corpus_path, raw=True)
 
     '''
     For each document/speech -- extract the top sentences
@@ -141,7 +142,7 @@ def extract_corpus_topics(corpus_path, n_corpus_topics, n_doc_topics=1, n_summar
     (3) check the cosine similarity of every sentences' TF vector with that of the top topics for that document
     '''
     for index,doc in enumerate(raw_speech.iterkeys()):
-        pp.pprint('')
+        print ""
         pp.pprint('Processing: ' + str(doc))
 
         doc_blob = TextBlob(raw_speech[doc])
@@ -153,13 +154,16 @@ def extract_corpus_topics(corpus_path, n_corpus_topics, n_doc_topics=1, n_summar
             sentence_count += 1
 
         speech_tfs = sentence_tfidf.fit_transform(speech_sentences[doc].values()).todense()
-        #speech_tfs_mat = speech_tfs.todense()
 
         ''' iterate over the speech's most-relevant topics - and get cosine similarity '''
         top_topics_of_doc = best_topic_indices[index]
-        for topic_index in top_topics_of_doc:
-            topic_vector = corpus_model.components_[topic_index]
 
+        for topic_index in top_topics_of_doc:
+
+            pp.pprint('Top topic: ' + str(topic_index))
+            pp.pprint('Topic words: ' + str(topics[topic_index][:10]))
+
+            topic_vector = corpus_model.components_[topic_index]
             sentence_similarity = {}
             for s_index, s_tf in enumerate(speech_tfs):
                 ''' calcuating the cosine similarity with this sort of reshape op -- to get rid of a sklearn warning '''
@@ -173,20 +177,20 @@ def extract_corpus_topics(corpus_path, n_corpus_topics, n_doc_topics=1, n_summar
     return
 
 
-if __name__ == '__main__':
-
-    stemmer = PorterStemmer()
-    pp = pprint.PrettyPrinter(indent=2)
-
-    #path = '/Users/smuddu/galvanize/capstone/data/Speeches/Obama'
-    path = '/Users/smuddu/galvanize/capstone/data/Speeches/samples'
-
-    #vocab, doc2topic, topics, model = extract_corpus_topics(path,2)
-    extract_corpus_topics(path,2)
-
-    ''' print top topics '''
-    #print_top_topics(topics)
-
-    #extract_speech_excerpts(path, vocab, doc2topic, model, 1, 3)
+#   if __name__ == '__main__':
+#
+#       stemmer = PorterStemmer()
+#       pp = pprint.PrettyPrinter(indent=2)
+#
+#       #path = '/Users/smuddu/galvanize/capstone/data/Speeches/Obama'
+#       path = '/Users/smuddu/galvanize/capstone/data/Speeches/samples'
+#
+#       #vocab, doc2topic, topics, model = extract_corpus_topics(path,2)
+#       extract_corpus_topics(path,2,1,2)
+#
+#       ''' print top topics '''
+#       #print_top_topics(topics)
+#
+#       #extract_speech_excerpts(path, vocab, doc2topic, model, 1, 3)
 
 
