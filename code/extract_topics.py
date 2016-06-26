@@ -148,12 +148,12 @@ def extract_speech_excerpts(path, vocab, W, model, n_topics_from_doc=1, n_senten
         sentence_count = 0
         for sentence in doc_blob.sentences:
             ''' strip punctuation from the sentence now '''
-            sentence_without_punctuation = str(sentence).translate(None, string.punctuation)
-            speech_sentences[doc][sentence_count] = sentence_without_punctuation
+            sentence_no_punct = str(sentence).translate(None, string.punctuation)
+            speech_sentences[doc][sentence_count] = sentence_no_punct
             sentence_count += 1
 
-        speech_tfs = sentence_tfidf.fit_transform(speech_sentences[doc].values())
-        speech_tfs_mat = speech_tfs.todense()
+        speech_tfs = sentence_tfidf.fit_transform(speech_sentences[doc].values()).todense()
+        #speech_tfs_mat = speech_tfs.todense()
 
         ''' iterate over the speech's most-relevant topics - and get cosine similarity '''
         top_topics_of_doc = best_topic_indices[index]
@@ -161,7 +161,7 @@ def extract_speech_excerpts(path, vocab, W, model, n_topics_from_doc=1, n_senten
             topic_vector = model.components_[topic_index]
 
             sentence_similarity = {}
-            for s_index, s_tf in enumerate(speech_tfs_mat):
+            for s_index, s_tf in enumerate(speech_tfs):
                 ''' calcuating the cosine similarity with this sort of reshape op -- to get rid of a sklearn warning '''
                 sentence_similarity[s_index] = cosine_similarity(s_tf,topic_vector.reshape((1,-1)))[0][0]
 
