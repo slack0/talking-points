@@ -94,7 +94,7 @@ def get_top_topics(W, n_topics):
     return top_topics
 
 
-def extract_corpus_topics(corpus_path, num_topics):
+def extract_corpus_topics(corpus_path, n_corpus_topics, n_doc_topics=1, n_summary_sentences=5):
 
     ''' Parse contents of speech directory and get dictionaries '''
     proc_speech = parse_speeches(corpus_path)
@@ -109,16 +109,16 @@ def extract_corpus_topics(corpus_path, num_topics):
     corpus_vocab = corpus_tfidf.get_feature_names()
 
     ''' create a NMF model '''
-    corpus_model = NMF(n_components=num_topics, init='random', random_state=0)
+    corpus_model = NMF(n_components=n_corpus_topics, init='random', random_state=0)
     corpusW = corpus_model.fit_transform(tfs_corpus)
 
     #print "Shape of W (decomposition output) = {}".format(Wcorpus.shape)
     ''' get *all* words for each topic '''
-    topics = get_corpus_topics(corpus_tfidf, corpus_model, num_topics)
+    topics = get_corpus_topics(corpus_tfidf, corpus_model, n_corpus_topics)
 
-    return corpus_vocab, corpusW, topics, corpus_model
+    #return corpus_vocab, corpusW, topics, corpus_model
 
-def extract_speech_excerpts(path, vocab, W, model, n_topics_from_doc=1, n_sentences_from_doc=5):
+#def extract_speech_excerpts(path, vocab, W, model, n_topics_from_doc=1, n_sentences_from_doc=5):
 
     ''' Parse contents of speech directory and get dictionaries '''
     raw_speech = parse_speeches(path, raw=True)
@@ -130,10 +130,10 @@ def extract_speech_excerpts(path, vocab, W, model, n_topics_from_doc=1, n_senten
     speech_sentences = defaultdict(dict)
 
     ''' Create a sentence TF-IDF instance using the corpus vocabulary '''
-    sentence_tfidf = TfidfVectorizer(tokenizer=tokenize, stop_words='english', vocabulary=vocab)
+    sentence_tfidf = TfidfVectorizer(tokenizer=tokenize, stop_words='english', vocabulary=corpus_vocab)
 
     ''' top topics for each document '''
-    best_topic_indices = get_top_topics(W, n_topics_from_doc)
+    best_topic_indices = get_top_topics(corpusW, n_doc_topics)
 
     '''
     (1) iterate over raw speech text and speech_sentences
@@ -158,7 +158,7 @@ def extract_speech_excerpts(path, vocab, W, model, n_topics_from_doc=1, n_senten
         ''' iterate over the speech's most-relevant topics - and get cosine similarity '''
         top_topics_of_doc = best_topic_indices[index]
         for topic_index in top_topics_of_doc:
-            topic_vector = model.components_[topic_index]
+            topic_vector = corpus_model.components_[topic_index]
 
             sentence_similarity = {}
             for s_index, s_tf in enumerate(speech_tfs):
@@ -166,7 +166,7 @@ def extract_speech_excerpts(path, vocab, W, model, n_topics_from_doc=1, n_senten
                 sentence_similarity[s_index] = cosine_similarity(s_tf,topic_vector.reshape((1,-1)))[0][0]
 
             ''' sort the sentence_similarity and pull the indices of top sentences '''
-            top_n_sentences = [i[0] for i in sorted(sentence_similarity.items(), key=operator.itemgetter(1), reverse=True)[:n_sentences_from_doc]]
+            top_n_sentences = [i[0] for i in sorted(sentence_similarity.items(), key=operator.itemgetter(1), reverse=True)[:n_summary_sentences]]
             for i in top_n_sentences:
                 pp.pprint(speech_sentences[doc][i])
 
@@ -181,11 +181,12 @@ if __name__ == '__main__':
     #path = '/Users/smuddu/galvanize/capstone/data/Speeches/Obama'
     path = '/Users/smuddu/galvanize/capstone/data/Speeches/samples'
 
-    vocab, doc2topic, topics, model = extract_corpus_topics(path,2)
+    #vocab, doc2topic, topics, model = extract_corpus_topics(path,2)
+    extract_corpus_topics(path,2)
 
     ''' print top topics '''
     #print_top_topics(topics)
 
-    extract_speech_excerpts(path, vocab, doc2topic, model, 1, 3)
+    #extract_speech_excerpts(path, vocab, doc2topic, model, 1, 3)
 
 
