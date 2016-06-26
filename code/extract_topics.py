@@ -12,6 +12,7 @@ import unidecode
 import operator
 import pprint
 
+import numpy as np
 from collections import defaultdict
 
 from textblob import TextBlob
@@ -87,7 +88,7 @@ def print_top_topics(topics, n_topics=10):
 
 def get_top_topics(W, n_topics):
     top_topics = []
-    for row in W.todense():
+    for row in W:
         top_topics.append(np.argsort(row)[::-1][:n_topics])
 
     return top_topics
@@ -140,7 +141,8 @@ def extract_speech_excerpts(path, vocab, W, model, n_topics_from_doc=1, n_senten
     (3) check the cosine similarity of every sentences' TF vector with that of the top topics for that document
     '''
     for index,doc in enumerate(raw_speech.iterkeys()):
-        #pp.pprint('Processing: ' + str(doc))
+        pp.pprint('')
+        pp.pprint('Processing: ' + str(doc))
 
         doc_blob = TextBlob(raw_speech[doc])
         sentence_count = 0
@@ -176,10 +178,10 @@ if __name__ == '__main__':
     stemmer = PorterStemmer()
     pp = pprint.PrettyPrinter(indent=2)
 
-    path = '/Users/smuddu/galvanize/capstone/data/Speeches/Obama'
-    #path = '/Users/smuddu/galvanize/capstone/data/Speeches/samples'
+    #path = '/Users/smuddu/galvanize/capstone/data/Speeches/Obama'
+    path = '/Users/smuddu/galvanize/capstone/data/Speeches/samples'
 
-    vocab, doc2topic, topics, model = extract_corpus_topics(path,20)
+    vocab, doc2topic, topics, model = extract_corpus_topics(path,2)
 
     ''' print top topics '''
     #print_top_topics(topics)
