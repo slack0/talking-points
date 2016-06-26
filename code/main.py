@@ -8,6 +8,9 @@ if __name__ == '__main__':
     #path = '/Users/smuddu/galvanize/talkingpoints/data/Romney'
     #path = '/Users/smuddu/galvanize/talkingpoints/data/simple'
 
+    ''' using URLs '''
+    #path = '/Users/smuddu/galvanize/talkingpoints/data/just_links_obama'
+
     #vocab, doc2topic, topics, model = extract_corpus_topics(path,2)
     extract_corpus_topics(path,15,1,5)
 

@@ -4,7 +4,6 @@ Talking Points
 
 This tool extract topics of speeches and summarizes them
 
-
 '''
 
 import nltk
@@ -26,9 +25,59 @@ from sklearn.metrics.pairwise import cosine_similarity
 from nltk.stem.porter import PorterStemmer
 from sklearn.decomposition import NMF
 
+from goose import Goose
+
+
 
 stemmer = PorterStemmer()
 pp = pprint.PrettyPrinter(indent=4)
+
+
+def grab_link(in_url):
+    ''' extract article information using Python Goose '''
+    try:
+        article = Goose().extract(url=in_url)
+        return article
+    except ValueError:
+        print 'Goose failed to extract article from url'
+        return None
+    return None
+
+
+def create_corpus(url_file, raw=False):
+    raw_sp2txt = {}
+    proc_sp2txt = {}
+    speech_titles = {}
+    U = open(url_file)
+    url_list = [url.strip() for url in U.readlines()]
+    for doc_index, url in enumerate(url_list):
+        pp.pprint('Grabbing URL: ' + str(url))
+
+        article = grab_link(url)
+
+        title = unidecode.unidecode_expect_nonascii(article.title)
+        speech_titles[doc_index] = title
+
+        _raw_input = article.cleaned_text
+        text = unidecode.unidecode_expect_nonascii(_raw_input)
+        re.sub("[\W\d]", " ", text.lower().strip())
+        lowers = text.replace('\n',' ').replace('\r',' ')
+        while "  " in lowers:
+            lowers = lowers.replace('  ',' ')
+
+
+        ''' store raw text -- for sentence extraction '''
+        raw_sp2txt[doc_index] = lowers
+
+        ''' store no_punctuation for NMF '''
+        no_punctuation = lowers.translate(None, string.punctuation)
+        proc_sp2txt[doc_index] = no_punctuation
+
+    U.close()
+    return proc_sp2txt, raw_sp2txt, speech_titles
+
+
+
 
 def stem_tokens(tokens, stemmer):
     stemmed = []
@@ -43,7 +92,7 @@ def tokenize(text):
     return tokens
 
 
-def parse_speeches(corpus_path, raw=False):
+def parse_speeches(corpus_path):
     raw_sp2txt = {}
     proc_sp2txt = {}
     for subdir, dirs, files in os.walk(corpus_path):
@@ -65,10 +114,7 @@ def parse_speeches(corpus_path, raw=False):
             no_punctuation = lowers.translate(None, string.punctuation)
             proc_sp2txt[each_file] = no_punctuation
 
-    if (raw == True):
-        return raw_sp2txt
-    else:
-        return proc_sp2txt
+    return proc_sp2txt, raw_sp2txt
 
 
 def get_corpus_topics(tfidf, model, n_topics):
@@ -104,7 +150,11 @@ def get_top_topics(W, n_topics):
 def extract_corpus_topics(corpus_path, n_corpus_topics, n_doc_topics=1, n_summary_sentences=5):
 
     ''' Parse contents of speech directory and get dictionaries '''
-    proc_speech = parse_speeches(corpus_path)
+    proc_speech, raw_speech = parse_speeches(corpus_path)
+
+    #proc_speech, raw_speech, titles = create_corpus(corpus_path)
+
+
 
     ''' TFIDF vectorization and generate vocabularies '''
     corpus_tfidf = TfidfVectorizer(tokenizer=tokenize, stop_words='english')
@@ -122,11 +172,6 @@ def extract_corpus_topics(corpus_path, n_corpus_topics, n_doc_topics=1, n_summar
     #print "Shape of W (decomposition output) = {}".format(Wcorpus.shape)
     ''' get *all* words for each topic '''
     topics = get_corpus_topics(corpus_tfidf, corpus_model, n_corpus_topics)
-
-#def extract_speech_excerpts(path, vocab, W, model, n_topics_from_doc=1, n_sentences_from_doc=5):
-
-    ''' Parse contents of speech directory and get dictionaries '''
-    raw_speech = parse_speeches(corpus_path, raw=True)
 
     '''
     For each document/speech -- extract the top sentences
@@ -149,6 +194,7 @@ def extract_corpus_topics(corpus_path, n_corpus_topics, n_doc_topics=1, n_summar
     for index,doc in enumerate(raw_speech.iterkeys()):
         print "*"*120
         pp.pprint('Processing: ' + str(doc))
+        #pp.pprint('Title: ' + titles[doc])
 
         doc_blob = TextBlob(raw_speech[doc])
         sentence_count = 0
@@ -184,22 +230,3 @@ def extract_corpus_topics(corpus_path, n_corpus_topics, n_doc_topics=1, n_summar
 
 
     return
-
-
-#   if __name__ == '__main__':
-#
-#       stemmer = PorterStemmer()
-#       pp = pprint.PrettyPrinter(indent=2)
-#
-#       #path = '/Users/smuddu/galvanize/capstone/data/Speeches/Obama'
-#       path = '/Users/smuddu/galvanize/capstone/data/Speeches/samples'
-#
-#       #vocab, doc2topic, topics, model = extract_corpus_topics(path,2)
-#       extract_corpus_topics(path,2,1,2)
-#
-#       ''' print top topics '''
-#       #print_top_topics(topics)
-#
-#       #extract_speech_excerpts(path, vocab, doc2topic, model, 1, 3)
-
-
