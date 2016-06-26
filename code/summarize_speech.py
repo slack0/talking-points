@@ -1,6 +1,10 @@
 
 '''
-Speech Transcript processing / cleaning to feed the NLP pipeline
+Talking Points
+
+This tool extract topics of speeches and summarizes them
+
+
 '''
 
 import nltk
@@ -44,7 +48,7 @@ def parse_speeches(corpus_path, raw=False):
     proc_sp2txt = {}
     for subdir, dirs, files in os.walk(corpus_path):
         for each_file in files:
-            pp.pprint("-- processing: {}".format(each_file))
+            #pp.pprint("-- processing: {}".format(each_file))
             file_path = subdir + os.path.sep + each_file
             fhandle = open(file_path, 'r')
             _raw_input = fhandle.read()
@@ -129,6 +133,7 @@ def extract_corpus_topics(corpus_path, n_corpus_topics, n_doc_topics=1, n_summar
     Create a dict of dicts to populate sentences for every speech in the corpus
     '''
     speech_sentences = defaultdict(dict)
+    raw_sentences = defaultdict(dict)
 
     ''' Create a sentence TF-IDF instance using the corpus vocabulary '''
     sentence_tfidf = TfidfVectorizer(tokenizer=tokenize, stop_words='english', vocabulary=corpus_vocab)
@@ -142,7 +147,7 @@ def extract_corpus_topics(corpus_path, n_corpus_topics, n_doc_topics=1, n_summar
     (3) check the cosine similarity of every sentences' TF vector with that of the top topics for that document
     '''
     for index,doc in enumerate(raw_speech.iterkeys()):
-        print ""
+        print "*"*120
         pp.pprint('Processing: ' + str(doc))
 
         doc_blob = TextBlob(raw_speech[doc])
@@ -151,6 +156,7 @@ def extract_corpus_topics(corpus_path, n_corpus_topics, n_doc_topics=1, n_summar
             ''' strip punctuation from the sentence now '''
             sentence_no_punct = str(sentence).translate(None, string.punctuation)
             speech_sentences[doc][sentence_count] = sentence_no_punct
+            raw_sentences[doc][sentence_count] = sentence
             sentence_count += 1
 
         speech_tfs = sentence_tfidf.fit_transform(speech_sentences[doc].values()).todense()
@@ -160,8 +166,9 @@ def extract_corpus_topics(corpus_path, n_corpus_topics, n_doc_topics=1, n_summar
 
         for topic_index in top_topics_of_doc:
 
-            pp.pprint('Top topic: ' + str(topic_index))
-            pp.pprint('Topic words: ' + str(topics[topic_index][:10]))
+            pp.pprint('Top Topic: ' + str(topic_index))
+            pp.pprint('Top Topic Words: ' + str(topics[topic_index][:10]))
+            print ""
 
             topic_vector = corpus_model.components_[topic_index]
             sentence_similarity = {}
@@ -172,7 +179,9 @@ def extract_corpus_topics(corpus_path, n_corpus_topics, n_doc_topics=1, n_summar
             ''' sort the sentence_similarity and pull the indices of top sentences '''
             top_n_sentences = [i[0] for i in sorted(sentence_similarity.items(), key=operator.itemgetter(1), reverse=True)[:n_summary_sentences]]
             for i in top_n_sentences:
-                pp.pprint(speech_sentences[doc][i])
+                pp.pprint(str(raw_sentences[doc][i]))
+                print ""
+
 
     return
 
