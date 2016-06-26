@@ -71,7 +71,7 @@ def get_corpus_topics(tfidf, model, n_topics):
         id2word[tfidf.vocabulary_[k]] = k
 
     for topic_index in xrange(n_topics):
-        pp.pprint("\n-- Top words in topic:")
+        #pp.pprint("\n-- Top words in topic:")
         topic_importance = dict(zip(id2word.values(),list(model.components_[topic_index])))
         sorted_topic_imp = sorted(topic_importance.items(), key=operator.itemgetter(1),reverse=True)
         #pp.pprint([i[0] for i in sorted_topic_imp[:15]])
@@ -83,6 +83,14 @@ def get_corpus_topics(tfidf, model, n_topics):
 
 def print_top_topics(topics, n_topics=10):
     pp.pprint([i[0:9] for i in topics[:n_topics]])
+
+
+def get_top_topics(W, n_topics):
+    top_topics = []
+    for row in W.todense():
+        top_topics.append(np.argsort(row)[::-1][:n_topics])
+
+    return top_topics
 
 
 def extract_corpus_topics(corpus_path, num_topics):
@@ -107,12 +115,12 @@ def extract_corpus_topics(corpus_path, num_topics):
     ''' get *all* words for each topic '''
     topics = get_corpus_topics(corpus_tfidf, corpus_model, num_topics)
 
-    return corpus_vocab, corpusW, topics
+    return corpus_vocab, corpusW, topics, corpus_model
 
-def extract_speech_excerpts(corpus_path, corpus_vocab, W, n_topics_from_doc=1, n_sentences_from_doc=5):
+def extract_speech_excerpts(path, vocab, W, model, n_topics_from_doc=1, n_sentences_from_doc=5):
 
     ''' Parse contents of speech directory and get dictionaries '''
-    raw_speech = parse_speeches(corpus_path, raw=True)
+    raw_speech = parse_speeches(path, raw=True)
 
     '''
     For each document/speech -- extract the top sentences
@@ -121,10 +129,17 @@ def extract_speech_excerpts(corpus_path, corpus_vocab, W, n_topics_from_doc=1, n
     speech_sentences = defaultdict(dict)
 
     ''' Create a sentence TF-IDF instance using the corpus vocabulary '''
-    sentence_tfidf = TfidfVectorizer(tokenizer=tokenize, stop_words='english', vocabulary=corpus_vocab)
+    sentence_tfidf = TfidfVectorizer(tokenizer=tokenize, stop_words='english', vocabulary=vocab)
 
-    ''' iterate over raw speech text and speech_sentences '''
-    for doc in raw_speech.iterkeys():
+    ''' top topics for each document '''
+    best_topic_indices = get_top_topics(W, n_topics_from_doc)
+
+    '''
+    (1) iterate over raw speech text and speech_sentences
+    (2) get sentence term-frequency vectors based on the vocabulary of the corpus
+    (3) check the cosine similarity of every sentences' TF vector with that of the top topics for that document
+    '''
+    for index,doc in enumerate(raw_speech.iterkeys()):
         #pp.pprint('Processing: ' + str(doc))
 
         doc_blob = TextBlob(raw_speech[doc])
@@ -135,28 +150,25 @@ def extract_speech_excerpts(corpus_path, corpus_vocab, W, n_topics_from_doc=1, n
             speech_sentences[doc][sentence_count] = sentence_without_punctuation
             sentence_count += 1
 
-    ''' map topics to documents '''
-    for i,doc in enumerate(speech_sentences.iterkeys()):
-        ''' get indices of top topics in document '''
+        speech_tfs = sentence_tfidf.fit_transform(speech_sentences[doc].values())
+        speech_tfs_mat = speech_tfs.todense()
 
+        ''' iterate over the speech's most-relevant topics - and get cosine similarity '''
+        top_topics_of_doc = best_topic_indices[index]
+        for topic_index in top_topics_of_doc:
+            topic_vector = model.components_[topic_index]
 
+            sentence_similarity = {}
+            for s_index, s_tf in enumerate(speech_tfs_mat):
+                ''' calcuating the cosine similarity with this sort of reshape op -- to get rid of a sklearn warning '''
+                sentence_similarity[s_index] = cosine_similarity(s_tf,topic_vector.reshape((1,-1)))[0][0]
 
-
-
-        #speech_tfs = sentence_tfidf.fit_transform(speech_hash[doc].values())
-        #print "\nSpeech TF vector shape: {}".format(speech_tfs.shape)
-
-
-    ''' check the cosine similarity of each sentence against topic tfidfs '''
-        #distances = cosine_similarity(speech_tfs,corpus_tfs)
-        #print "Shape of cosine distance vector: {}".format(distances.shape)
-
-        #pp.pprint(distances)
+            ''' sort the sentence_similarity and pull the indices of top sentences '''
+            top_n_sentences = [i[0] for i in sorted(sentence_similarity.items(), key=operator.itemgetter(1), reverse=True)[:n_sentences_from_doc]]
+            for i in top_n_sentences:
+                pp.pprint(speech_sentences[doc][i])
 
     return
-
-
-
 
 
 if __name__ == '__main__':
@@ -167,9 +179,11 @@ if __name__ == '__main__':
     path = '/Users/smuddu/galvanize/capstone/data/Speeches/Obama'
     #path = '/Users/smuddu/galvanize/capstone/data/Speeches/samples'
 
-    vocab, doc2topic, topics = extract_corpus_topics(path,20)
+    vocab, doc2topic, topics, model = extract_corpus_topics(path,20)
 
     ''' print top topics '''
-    print_top_topics(topics)
+    #print_top_topics(topics)
+
+    extract_speech_excerpts(path, vocab, doc2topic, model, 1, 3)
 
 
