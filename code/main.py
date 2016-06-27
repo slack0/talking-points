@@ -3,10 +3,10 @@ from summarize_speech import *
 
 if __name__ == '__main__':
 
-    path = '/Users/smuddu/galvanize/capstone/data/Speeches/Obama'
+    #path = '/Users/smuddu/galvanize/capstone/data/Speeches/Obama'
     #path = '/Users/smuddu/galvanize/capstone/data/Speeches/samples'
     #path = '/Users/smuddu/galvanize/talkingpoints/data/Romney'
-    #path = '/Users/smuddu/galvanize/talkingpoints/data/simple'
+    path = '/Users/smuddu/galvanize/talkingpoints/data/simple'
 
     ''' using URLs '''
     #path = '/Users/smuddu/galvanize/talkingpoints/data/just_links_obama'

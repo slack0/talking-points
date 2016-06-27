@@ -44,7 +44,7 @@ def grab_link(in_url):
     return None
 
 
-def create_corpus(url_file, raw=False):
+def create_corpus_from_web(url_file, raw=False):
     raw_sp2txt = {}
     proc_sp2txt = {}
     speech_titles = {}
@@ -75,6 +75,38 @@ def create_corpus(url_file, raw=False):
 
     U.close()
     return proc_sp2txt, raw_sp2txt, speech_titles
+
+
+
+
+def create_corpus_from_html(raw_html_path, raw=False):
+    raw_sp2txt = {}
+    proc_sp2txt = {}
+    speech_titles = {}
+    for subdir, dirs, files in os.walk(raw_html_path):
+        for each_file in files:
+            file_path = subdir + os.path.sep + each_file
+            htmlfile = open(file_path, 'r')
+            raw_content = htmlfile.read()
+            article = Goose().extract(raw_html=raw_content)
+            speech_titles[doc_index] = unidecode.unidecode_expect_nonascii(article.title)
+            text = unidecode.unidecode_expect_nonascii(article.cleaned_text)
+            re.sub("[\W\d]", " ", text.lower().strip())
+            lowers = text.replace('\n',' ').replace('\r',' ')
+            while "  " in lowers:
+                lowers = lowers.replace('  ',' ')
+
+            ''' store raw text -- for sentence extraction '''
+            raw_sp2txt[doc_index] = lowers
+
+            ''' store no_punctuation for NMF '''
+            no_punctuation = lowers.translate(None, string.punctuation)
+            proc_sp2txt[doc_index] = no_punctuation 
+
+            htmlfile.close()
+
+    return proc_sp2txt, raw_sp2txt, speech_titles
+
 
 
 
