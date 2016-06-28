@@ -15,7 +15,7 @@ if __name__ == '__main__':
     #path = '/Users/smuddu/galvanize/talkingpoints/data/just_links_obama'
 
     #vocab, doc2topic, topics, model = extract_corpus_topics(path,2)
-    extract_corpus_topics(path,10,1,5)
+    extract_corpus_topics(path,15,1,5)
 
     ''' print top topics '''
     #print_top_topics(topics)
