@@ -89,7 +89,10 @@ def create_corpus_from_html(raw_html_path, raw=False):
             htmlfile = open(file_path, 'r')
             raw_content = htmlfile.read()
             article = Goose().extract(raw_html=raw_content)
+            if not (article and article.cleaned_text and article.title):
+                continue
 
+            #print 'Processing article: ', article.title
             speech_titles[doc_index] = unidecode.unidecode_expect_nonascii(article.title)
             text = unidecode.unidecode_expect_nonascii(article.cleaned_text)
 

@@ -8,14 +8,14 @@ if __name__ == '__main__':
     #path = '/Users/smuddu/galvanize/talkingpoints/data/Romney'
     #path = '/Users/smuddu/galvanize/talkingpoints/data/simple'
     #path = '/Users/smuddu/galvanize/talkingpoints/data/simple_html'
-    #path = '/Users/smuddu/galvanize/talkingpoints/data/romney_raw_html'
-    path = '/Users/smuddu/galvanize/talkingpoints/data/obama_raw_html'
+    path = '/Users/smuddu/galvanize/talkingpoints/data/romney_raw_html'
+    #path = '/Users/smuddu/galvanize/talkingpoints/data/obama_raw_html'
 
     ''' using URLs '''
     #path = '/Users/smuddu/galvanize/talkingpoints/data/just_links_obama'
 
     #vocab, doc2topic, topics, model = extract_corpus_topics(path,2)
-    extract_corpus_topics(path,15,1,5)
+    extract_corpus_topics(path,5,1,5)
 
     ''' print top topics '''
     #print_top_topics(topics)
