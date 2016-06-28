@@ -54,8 +54,8 @@ def create_corpus_from_web(url_file, raw=False):
         pp.pprint('Grabbing URL: ' + str(url))
 
         article = grab_link(url)
-
         title = unidecode.unidecode_expect_nonascii(article.title)
+
         speech_titles[doc_index] = title
 
         _raw_input = article.cleaned_text
@@ -84,13 +84,15 @@ def create_corpus_from_html(raw_html_path, raw=False):
     proc_sp2txt = {}
     speech_titles = {}
     for subdir, dirs, files in os.walk(raw_html_path):
-        for each_file in files:
+        for doc_index, each_file in enumerate(files):
             file_path = subdir + os.path.sep + each_file
             htmlfile = open(file_path, 'r')
             raw_content = htmlfile.read()
             article = Goose().extract(raw_html=raw_content)
+
             speech_titles[doc_index] = unidecode.unidecode_expect_nonascii(article.title)
             text = unidecode.unidecode_expect_nonascii(article.cleaned_text)
+
             re.sub("[\W\d]", " ", text.lower().strip())
             lowers = text.replace('\n',' ').replace('\r',' ')
             while "  " in lowers:
@@ -101,7 +103,7 @@ def create_corpus_from_html(raw_html_path, raw=False):
 
             ''' store no_punctuation for NMF '''
             no_punctuation = lowers.translate(None, string.punctuation)
-            proc_sp2txt[doc_index] = no_punctuation 
+            proc_sp2txt[doc_index] = no_punctuation
 
             htmlfile.close()
 
@@ -182,9 +184,9 @@ def get_top_topics(W, n_topics):
 def extract_corpus_topics(corpus_path, n_corpus_topics, n_doc_topics=1, n_summary_sentences=5):
 
     ''' Parse contents of speech directory and get dictionaries '''
-    proc_speech, raw_speech = parse_speeches(corpus_path)
+    #proc_speech, raw_speech = parse_speeches(corpus_path)
 
-    #proc_speech, raw_speech, titles = create_corpus(corpus_path)
+    proc_speech, raw_speech, speech_titles = create_corpus_from_html(corpus_path)
 
 
 
@@ -226,6 +228,7 @@ def extract_corpus_topics(corpus_path, n_corpus_topics, n_doc_topics=1, n_summar
     for index,doc in enumerate(raw_speech.iterkeys()):
         print "*"*120
         pp.pprint('Processing: ' + str(doc))
+        pp.pprint('Document Title: ' + str(speech_titles[doc]))
         #pp.pprint('Title: ' + titles[doc])
 
         doc_blob = TextBlob(raw_speech[doc])
