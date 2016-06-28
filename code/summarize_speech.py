@@ -259,9 +259,14 @@ def extract_corpus_topics(corpus_path, n_corpus_topics, n_doc_topics=1, n_summar
 
             ''' sort the sentence_similarity and pull the indices of top sentences '''
             top_n_sentences = [i[0] for i in sorted(sentence_similarity.items(), key=operator.itemgetter(1), reverse=True)[:n_summary_sentences]]
+            bottom_n_sentences = [i[0] for i in sorted(sentence_similarity.items(), key=operator.itemgetter(1), reverse=False)[:n_summary_sentences]]
+            print "Most Important Sentences..."
             for i in top_n_sentences:
                 pp.pprint(str(raw_sentences[doc][i]))
-                print ""
 
+            print ""
+            print "Least Important Sentences..."
+            for i in bottom_n_sentences:
+                pp.pprint(str(raw_sentences[doc][i]))
 
     return
