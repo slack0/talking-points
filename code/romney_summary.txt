@@ -1,91 +1,91 @@
 ************************************************************************************************************************
 'Processing: 0'
 "Document Title: 03/22/10 - Obama's 'Unconscionable Abuse Of Power'"
-'Top Topic: 1'
-"Top Topic Words: [u'government', u'economy', u'tax', u'america', u'spending', u'people', u'new', u'stimulus', u'time', u'democrats']"
+'Top Topic: 6'
+"Top Topic Words: [u'labor', u'unions', u'check', u'card', u'charter', u'management', u'teachers', u'workers', u'schools', u'bailout']"
 
 Most Important Sentences...
-'It raises taxes, slashes the more private side of Medicare, installs price controls, and puts a new federal bureaucracy in charge of health care.'
-'His health-care bill is unhealthy for America.'
+'Rather, it is an historic usurpation of the legislative process -- he unleashed the nuclear option, enlisted not a single Republican vote in either chamber, bribed reluctant members of his own party, paid-off his union backers, scapegoated insurers, and justified his act with patently fraudulent accounting.'
 'President Obama has betrayed his oath to the nation -- rather than bringing us together, ushering in a new kind of politics, and rising above raw partisanship, he has succumbed to the lowest denominator of incumbent power: justifying the means by extolling the ends.'
-'America has just witnessed an unconscionable abuse of power.'
-'What Barack Obama has ushered into the American political landscape is not good for our country; in the words of an ancient maxim, "what starts twisted, ends twisted."'
+'This op-ed appeared online at National Review Online on 3/22/2010.'
+'It raises taxes, slashes the more private side of Medicare, installs price controls, and puts a new federal bureaucracy in charge of health care.'
+'It will create a new entitlement even as the ones we already have are bankrupt.'
 
 Least Important Sentences...
+'His health-care bill is unhealthy for America.'
+'That campaign begins today.'
 'For these reasons and more, the act should be repealed.'
 'He calls his accomplishment "historic" -- in this he is correct, although not for the reason he intends.'
 'He promised better; we deserved better.'
-'This op-ed appeared online at National Review Online on 3/22/2010.'
-'That campaign begins today.'
 ************************************************************************************************************************
 'Processing: 1'
 'Document Title: 03/25/09 - A Cautionary Tale Of Card Check'
-'Top Topic: 1'
-"Top Topic Words: [u'government', u'economy', u'tax', u'america', u'spending', u'people', u'new', u'stimulus', u'time', u'democrats']"
+'Top Topic: 6'
+"Top Topic Words: [u'labor', u'unions', u'check', u'card', u'charter', u'management', u'teachers', u'workers', u'schools', u'bailout']"
 
 Most Important Sentences...
-'The working people of America should be able to unionize the way their fathers and mothers did - by free choice and secret ballot.'
-'Responsible members of Congress need to make it clear that Washington will not act to virtually impose unions on businesses.'
-'Unions are supposed to serve the interests of working people, yet in this case more power for the unions would help destroy many thousands of jobs throughout the economy.'
+'Its advocates claim that card check is a step forward for labor, as if workers should thank them for making unions less democratic.'
+'By tilting the playing field in favor of unions, card check not only robs workers of a secret ballot, it deprives management of the right to express its point of view.'
+'After I left office, organized labor had another run at replacing the secret ballot with a card check.'
 'Conservatives like me are opposed to card check, but not to unions.'
-'One reason so many parents want their children in charter schools is precisely because they operate free of union contracts, so that when administrators want to try something new, they can implement it quickly.'
+'A Cautionary Tale of Card Check, an op-ed by Mitt Romney, appeared in The Washington Times on 03/25/2009.'
 
 Least Important Sentences...
-'Administrators learned of the successful organizing effort only after the decision to unionize had been made.'
-'No one should be forced to publicly declare their intention before their employers and co-workers.'
 'All of this will raise costs, leading to more unemployment.'
+'It is undemocratic, and it would devastate business formation and employment, worsening the present economic crisis.'
+'Administrators learned of the successful organizing effort only after the decision to unionize had been made.'
 'For parents who may have liked the idea of a union-free school, there was no chance to be heard.'
-'The veto was a gain for the rights of employees and employers to a fair election, but the victory was short-lived.'
+'No one should be forced to publicly declare their intention before their employers and co-workers.'
 ************************************************************************************************************************
 'Processing: 2'
 'Document Title: 09/22/07 - Remarks At The Mackinac Republican Leadership Conference'
-'Top Topic: 1'
-"Top Topic Words: [u'government', u'economy', u'tax', u'america', u'spending', u'people', u'new', u'stimulus', u'time', u'democrats']"
+'Top Topic: 5'
+"Top Topic Words: [u'government', u'america', u'people', u'liberal', u'economy', u'time', u'president', u'republicans', u'american', u'kid']"
 
 Most Important Sentences...
 'We will work with good Democrats, Democrats who also love America, to change Washington and confront the new generation of challenges we face.'
+'Now is the time, this is the place for Republicans to lead America in strength, in faith, in family, in what is right.'
 'Republicans for Change believe in small government.'
-'The right answer is less government, less regulation, more individual responsibility, and more of the market dynamics that propel the rest of our economy.'
 'When Republicans act like Democrats, America loses.'
-"We've got to start acting like Republicans, not earmarking Republicans, not big government Republicans, but like Reagan Republicans and Teddy Roosevelt Republicans."
+'And for America to remain the great nation it has always been, it will look to Republicans for leadership.'
 
 Least Important Sentences...
 'Heads should roll.'
-'Out-of-wedlock childbirth should once again be out of fashion.'
-'We love the flag.'
 'And it has not been easy.'
-'He listened when al-Qaeda was plotting.'
+'He fought for the Patriot Act.'
+'Out-of-wedlock childbirth should once again be out of fashion.'
+'The ideal setting for raising a child is and will always be where there is a mother and a father.'
 ************************************************************************************************************************
 'Processing: 4'
 'Document Title: 10/19/07 - Values Voters Summit 2007'
 'Top Topic: 2'
-"Top Topic Words: [u'marriage', u'children', u'religion', u'family', u'people', u'said', u'marry', u'great', u'mother', u'sex']"
+"Top Topic Words: [u'marriage', u'religion', u'children', u'family', u'marry', u'people', u'mother', u'adults', u'said', u'child']"
 
 Most Important Sentences...
 "As recently as a few months ago, a judge in Iowa said that gay couples have the right to marry because current marriage law 'operates ONLY to harm same sex couples and their children.'"
 '"I will work with the people in this room, as I have for the past four years, to champion a federal marriage amendment to protect marriage as the union of a man and a woman.'
 '"The Court\'s error I believe was that it focused on adult rights - if heterosexual couples can marry, it reasoned, then to have equal rights, homosexual couples should also be able to marry.'
+'But they forgot that one of the primary purposes of marriage is the development and nurturing of children.'
 '"After the ruling in Massachusetts, I testified in Washington in favor of a federal marriage amendment.'
-'Ann has worked to help children make good choices like marriage and high school before having babies.'
 
 Least Important Sentences...
 'It is reality.'
 'As C.S.'
 "That may be because they've listened to Harry Reid."
 'But we take this quite seriously as well.'
-'If she is First Lady, this will be her mission.'
+'I call these the three legs of the Republican stool.'
 ************************************************************************************************************************
 'Processing: 5'
 'Document Title: Mitt Romney - Faith In America - 12/06/07'
 'Top Topic: 2'
-"Top Topic Words: [u'marriage', u'children', u'religion', u'family', u'people', u'said', u'marry', u'great', u'mother', u'sex']"
+"Top Topic Words: [u'marriage', u'religion', u'children', u'family', u'marry', u'people', u'mother', u'adults', u'said', u'child']"
 
 Most Important Sentences...
 'You can witness them in Ann and my marriage and in our family.'
 '"We believe that every single human being is a child of God - we are all part of the human family.'
 "In John Adams' words: 'We have no government armed with power capable of contending with human passions unbridled by morality and religion... Our constitution was made for a moral and religious people.'"
-'You left us, your children, a free and strong America.'
-'Whether it was the cause of abolition, or civil rights, or the right to life itself, no movement of conscience can succeed in America that cannot speak to the convictions of religious people.'
+'No religion should dictate to the state nor should the state interfere with the free practice of religion.'
+'"The founders proscribed the establishment of a state religion, but they did not countenance the elimination of religion from the public square.'
 
 Least Important Sentences...
 'We are in your debt.'
@@ -96,103 +96,103 @@ Least Important Sentences...
 ************************************************************************************************************************
 'Processing: 6'
 'Document Title: 01/15/08 - Romney Wins The Michigan Primary'
-'Top Topic: 3'
-"Top Topic Words: [u'president', u'america', u'obama', u'better', u'promise', u'remember', u'election', u'believe', u'going', u'know']"
+'Top Topic: 8'
+"Top Topic Words: [u'simi', u'valley', u'reagan', u'provided', u'library', u'lecture', u'2010', u'annual', u'california', u'romney']"
 
 Most Important Sentences...
-"You're going to hear Hillary Clinton and Barack Obama and John Edwards saying that they're the party of change, and I think that they would bring change to America, just not the kind that we want."
-'They fundamentally in their hearts believe that America is great because we have a great government, and we do have a great government.'
-'You know, only a week ago, a win looked like it was impossible, but then you got out and told America what they needed to hear.'
-"ROMNEY: Washington told us that they'd get us better health care and better education."
-'We said we were going to strengthen our military with additional troops and better equipment and better care for our veterans when they come home.'
+'Ronald Reagan, George Herbert Walker Bush, said we are a great and good people.'
+'Transcript: ROMNEY: Tonight marks the beginning of a comeback, a comeback for America.'
+"ROMNEY: Washington told us they'd get us a tax break for the middle-income Americans."
+'ROMNEY: Can it be fixed?'
+"ROMNEY: Washington told us that they'd cut back on the earmarks and the pork-barrel spending, but they haven't."
 
 Least Important Sentences...
-'AUDIENCE: We are!'
-'I have a couple of questions for you.'
+'Thank you so much.'
 "It's exactly what we are."
-'ROMNEY: Can it be fixed?'
-"Guess what they're doing in Washington."
+'AUDIENCE: We are!'
+"Let's take it all the way to the White House."
+"I've got to tell you that."
 ************************************************************************************************************************
 'Processing: 7'
 'Document Title: 02/07/08 - CPAC 2008 - Romney Suspends Campaign'
-'Top Topic: 2'
-"Top Topic Words: [u'marriage', u'children', u'religion', u'family', u'people', u'said', u'marry', u'great', u'mother', u'sex']"
+'Top Topic: 5'
+"Top Topic Words: [u'government', u'america', u'people', u'liberal', u'economy', u'time', u'president', u'republicans', u'american', u'kid']"
 
 Most Important Sentences...
+'Did you happen to see, by the way, that today government workers make more money than people who work in the private sector?'
 "It's time for the people of America to fortify marriage through a constitutional amendment, so that liberal judges cannot continue to attack it."
-'The development of a child is enhanced by having a mother and a father.'
-'Such a family is the ideal for the future of the child and for the strength of the nation.'
-'America," he said, "is unique in the sacrifice it has made for liberty, for itself and for freedom-loving people around the world."'
-'The attack on faith and religion is no less relentless.'
+'And because I love America, in this time of war, I feel I have to now stand aside for our party and for our country.'
+'He said, "America is unique in the history of the world.'
+'Now, to all of you, thank you, here, for caring enough about America to show up, to speak up, to stand up for conservative principles.'
 
 Least Important Sentences...
 'She was here with me.'
 "But it's never been only about me."
 'About this, I have no doubt.'
-"Opportunity's in our DNA."
-'And I appreciate her generous introduction.'
+"It's a drug."
+'And the consequence of that would be devastating.'
 ************************************************************************************************************************
 'Processing: 8'
 'Document Title: Mitt Romney - RNC 2008 - 09/03/08'
-'Top Topic: 1'
-"Top Topic Words: [u'government', u'economy', u'tax', u'america', u'spending', u'people', u'new', u'stimulus', u'time', u'democrats']"
+'Top Topic: 5'
+"Top Topic Words: [u'government', u'america', u'people', u'liberal', u'economy', u'time', u'president', u'republicans', u'american', u'kid']"
 
 Most Important Sentences...
-'It is to rein in government spending and to lower taxes, for taking a weed-whacker to excessive regulation and mandates, for putting a stop to tort windfalls, and to stand up to the Tyrannosaurus appetite of government unions!'
-'Is a government liberal or conservative that puts the interests of the teachers union ahead of the needs of our children?'
-'Is government spending - excluding inflation - liberal or conservative if it doubles since 1980?'
+'We have a prescription for every American who wants change in Washington -- throw out the big government liberals and elect John McCain!'
 'We need change all right - change from a liberal Washington to a conservative Washington!'
+'President McCain and Vice President Palin will keep America as it has always been -- the hope of the world.'
+'America is strong because of the ingenuity and entrepreneurship and hard work of the American people.'
 'They think we have the biggest and strongest economy in the world because of our government.'
 
 Least Important Sentences...
 'What happened?'
-'Ronald Reagan called-out the Evil Empire.'
 'It leads to moribund growth and double-digit unemployment.'
 'And stratospheric gas prices made things even worse.'
-"It's the same path Europe took a few decades ago."
+"I've done business in many foreign countries."
+'Ronald Reagan called-out the Evil Empire.'
 ************************************************************************************************************************
 'Processing: 9'
 'Document Title: 01/30/09 - Remarks To The House Republican Conference Retreat'
 'Top Topic: 1'
-"Top Topic Words: [u'government', u'economy', u'tax', u'america', u'spending', u'people', u'new', u'stimulus', u'time', u'democrats']"
+"Top Topic Words: [u'tax', u'spending', u'medicare', u'federal', u'government', u'plan', u'cuts', u'make', u'programs', u'stimulus']"
 
 Most Important Sentences...
-'We need to stimulate the economy, not the government.'
-'The difference between us and the Democrats is this: they want to stimulate the government, and we want to stimulate the economy.'
-"I want to make clear that I'm optimistic: our ideas are good, our agenda will make America stronger, and your action this week showed that we have the kind of leaders who will stand up for what they believe in."
+"Even Christine Romer, the President's own choice to lead the Council of Economic Advisors, found in her research that tax cuts are twice as effective as new spending."
+"That's why permanent tax cuts should be the centerpiece of the economic stimulus."
+'As soon as this economy recovers, we have to regain control over the federal budget, and above all, over entitlement spending.'
 "Fourth, if we're going to tax less and spend more to get the economy moving, then we have to make another commitment as well."
-'Well, a good rule is that the projects we fund in a stimulus should be legitimate government priorities that would have been carried out in the future anyway, and are simply being moved up to create those jobs now.'
+'That translates into about 400 billion dollars less annual consumer spending in the economy.'
 
 Least Important Sentences...
 'It should be part of this bill.'
 'They have never defined us.'
 "It's everywhere these days."
-"We went to the Olympic Games, and one of the events we attended was women's beach volleyball."
-'We should be a voice for moderation and compassion.'
+'You can be proud of your success.'
+'Thank you.'
 ************************************************************************************************************************
 'Processing: 10'
 'Document Title: 03/31/09 - Remarks To The National Republican Senatorial Committee Spring Dinner'
-'Top Topic: 1'
-"Top Topic Words: [u'government', u'economy', u'tax', u'america', u'spending', u'people', u'new', u'stimulus', u'time', u'democrats']"
+'Top Topic: 5'
+"Top Topic Words: [u'government', u'america', u'people', u'liberal', u'economy', u'time', u'president', u'republicans', u'american', u'kid']"
 
 Most Important Sentences...
+'And there are people like ourselves who believe, no, no, no, the fundamental premise of America was that the individual should be the sovereign.'
+"It's a reality that he has the best wishes and the prayers of the American people to do the right thing, to adopt the correct principles and to take America down a course that will secure our economy and keep us free and bring our men and women home in safety and in victory."
 'As Democrats thought about the stimulus they said, "Oh, because government knows best, we\'ll give more money to government."'
-"And that's because of his fundamental belief that the government is right, so he brought up health care, saying we're going to have government play a far more active role and lead in health care and grow a different health care plan, spending in my view well over a trillion dollars, they say 600 billion dollars over the next decade, but it's going to be a lot more than that if government turns health care for everybody into an actual entitlement."
 "We don't want Democrats to have power, or government to have power."
-'You see, when we thought about a stimulus plan to grow the economy, Republicans said, "It has to be based on strengthening the individual."'
-"We'll raise the taxes on business, and investment and capital so the government will have the money that we want to have for our growth."
+"But for people who believe that government is the answer, they say, well, we'll raise the taxes on investment."
 
 Least Important Sentences...
 'Why is that?'
-'I love telling jokes.'
 'I watched the debates.'
-'Now why is it so frightening?'
-'That is very frightening.'
+'I vetoed it.'
+'It also means finally dealing with the reforms necessary in our entitlement programs.'
+'He hardly addressed that at all.'
 ************************************************************************************************************************
 'Processing: 11'
 'Document Title: 04/21/09 - A Timid Advocate Of Freedom (Barack Obama)'
 'Top Topic: 4'
-"Top Topic Words: [u'world', u'israel', u'america', u'president', u'united', u'nuclear', u'defense', u'freedom', u'american', u'military']"
+"Top Topic Words: [u'israel', u'world', u'america', u'president', u'nuclear', u'united', u'defense', u'freedom', u'american', u'military']"
 
 Most Important Sentences...
 "So, like North Korea, Iran will have changed the world's equation for peace and security: It will be capable of devastating Europe and America, and of annihilating Israel."
@@ -204,33 +204,33 @@ Most Important Sentences...
 Least Important Sentences...
 'I am hoping for change.'
 'Blamed?'
-'Mitt Romney, formerly the governor of Massachusetts, was a candidate for the Republican presidential nomination in 2008.'
 'Even more troubling than what he has or has not said is what he has not done.'
+'Mitt Romney, formerly the governor of Massachusetts, was a candidate for the Republican presidential nomination in 2008.'
 'Instead he offered silence, smiles, and a handshake.'
 ************************************************************************************************************************
 'Processing: 12'
 'Document Title: 03/17/09 - The President Is Missing The Long-Term Effects Of His Policies'
 'Top Topic: 1'
-"Top Topic Words: [u'government', u'economy', u'tax', u'america', u'spending', u'people', u'new', u'stimulus', u'time', u'democrats']"
+"Top Topic Words: [u'tax', u'spending', u'medicare', u'federal', u'government', u'plan', u'cuts', u'make', u'programs', u'stimulus']"
 
 Most Important Sentences...
 'But the pool of risk capital that finances new jobs and new businesses has already been shrunk by trillions of dollars; raising the tax on investment will shrink it further, depress job creation and result in less government revenue.'
-"Perhaps the most disconcerting aspect of the President's proposals is that they appear to be taking America down the very path of big government, big spending and big borrowing that got us in so much trouble in the first place."
+'The result will not be more jobs and more tax revenue as the President claims, but less.'
+"The President's corporate tax plan makes the same error."
 'But American companies that have subsidiaries doing business in other countries already pay taxes there; making them pay higher US taxes will make them uncompetitive in those markets and cost jobs here.'
 'Expanding health insurance and improving education can be achieved without massive new federal spending.'
-"In the president's first address to Congress, he announced plans for a trillion-dollar health care plan and to take responsibility for a child from birth to its first job--universal healthcare, universal pre-school and universal higher education."
 
 Least Important Sentences...
-'And the multinationals themselves will simply relocate outside the US.'
 'Entitlements must be reformed.'
+'And the multinationals themselves will simply relocate outside the US.'
+'Taxes should not be raised.'
 'Housing will suffer, as will responsible borrowers.'
 'That initially plays well with some in the media and with the public at large.'
-'He inherited a recession, yes, but he is making it worse.'
 ************************************************************************************************************************
 'Processing: 13'
 'Document Title: 10/19/09 - 2009 AIPAC National Summit'
 'Top Topic: 4'
-"Top Topic Words: [u'world', u'israel', u'america', u'president', u'united', u'nuclear', u'defense', u'freedom', u'american', u'military']"
+"Top Topic Words: [u'israel', u'world', u'america', u'president', u'nuclear', u'united', u'defense', u'freedom', u'american', u'military']"
 
 Most Important Sentences...
 'This is one reason why America must never cede to the United Nations our commitment to Israel, our leadership of the free world and our defense of liberty.'
@@ -243,51 +243,51 @@ Least Important Sentences...
 'May this never be so.'
 'It will not.'
 'And how they will register their objection.'
-'Scott is the token Mormon.'
 'Thank you very much.'
+'Scott is the token Mormon.'
 ************************************************************************************************************************
 'Processing: 14'
 'Document Title: Mitt Romney - CPAC 2009 - 02/27/09'
-'Top Topic: 1'
-"Top Topic Words: [u'government', u'economy', u'tax', u'america', u'spending', u'people', u'new', u'stimulus', u'time', u'democrats']"
+'Top Topic: 5'
+"Top Topic Words: [u'government', u'america', u'people', u'liberal', u'economy', u'time', u'president', u'republicans', u'american', u'kid']"
 
 Most Important Sentences...
-'America did not vote for a boat-load of new government spending programs that would guarantee higher taxes and high deficits as far as the eye can see and that would threaten our currency, our economy, and our future.'
-'This is the time to pare back government spending.'
-"We need to advance a conservative plan - one based on free choice, personal responsibility, and private medicine; one that doesn't add massive new federal spending."
+'America is great because our society is free and the power of government is limited by the Constitution.'
 "I'm afraid I know where the liberal Democrats want to take us."
-'Republicans wanted to stimulate the economy, Democrats wanted to stimulate the government.'
+'America did not vote for a boat-load of new government spending programs that would guarantee higher taxes and high deficits as far as the eye can see and that would threaten our currency, our economy, and our future.'
+'Never in the history of a world has a single country possessed such great power, and used it for such good purpose across the world, as the United States of America.'
+'A lot of you have the memory of coming to CPAC in its early days, when America had challenges so big that many in the world - and even a few in our own government - thought we were in decline.'
 
 Least Important Sentences...
 'Crickets.'
 'But too much of the bill was short-sighted and wasteful.'
-"It's an honor to be introduced by David Keene."
 'And in 2008, we had more than our share of disappointments.'
 'And when the journey was over, both Ann and I were filled with gratitude for your friendship and loyalty.'
+"There's a rumor that she has been offered an 11-million-dollar book contract."
 ************************************************************************************************************************
 'Processing: 15'
 'Document Title: Mitt Romney - NRA Convention 2009 - 05/15/09'
-'Top Topic: 1'
-"Top Topic Words: [u'government', u'economy', u'tax', u'america', u'spending', u'people', u'new', u'stimulus', u'time', u'democrats']"
+'Top Topic: 5'
+"Top Topic Words: [u'government', u'america', u'people', u'liberal', u'economy', u'time', u'president', u'republicans', u'american', u'kid']"
 
 Most Important Sentences...
+'We know that in America, the people are sovereign.'
 'The liberal Democrats who control our government also want to put Washington in charge of healthcare.'
-'So for us, the centerpiece of the stimulus plan was to put more money back in the hands of individuals to make it easier for them to get our economy going again.'
 'Because the Democrats fundamentally believe that government knows best, they decided to give more money to government.'
-"The federal government should lead by example, with real responsibility and budget discipline, not by spending more trillions we don't have."
-'But the best path to health care reform is to let the American people make their own decisions, not have those decisions forced on them by government.'
+'America has sacrificed more than any other nation to free people from dictators.'
+"When conservatives, Republicans, and members of the NRA challenge the overreach of government and defend the rights of the individual, we are keeping faith with America's founding generation."
 
 Least Important Sentences...
 'But they are back.'
 'Why?'
 'Sorry.'
-'I disagree.'
 'There is no video for this speech.'
+'But some of his early moves have been troubling.'
 ************************************************************************************************************************
 'Processing: 16'
 'Document Title: Mitt Romney - The Care Of Freedom - 06/01/09'
 'Top Topic: 4'
-"Top Topic Words: [u'world', u'israel', u'america', u'president', u'united', u'nuclear', u'defense', u'freedom', u'american', u'military']"
+"Top Topic Words: [u'israel', u'world', u'america', u'president', u'nuclear', u'united', u'defense', u'freedom', u'american', u'military']"
 
 Most Important Sentences...
 'America is still the hope of the world.'
@@ -300,51 +300,51 @@ Least Important Sentences...
 'I have.'
 "But even then, we're not finished."
 'It now has only 280.'
-"I'm sure many of you have been to Normandy."
 'Thank you very much.'
+"I'm sure many of you have been to Normandy."
 ************************************************************************************************************************
 'Processing: 17'
 'Document Title: Mitt Romney - Values Voters Summit - 2009/19/09'
-'Top Topic: 1'
-"Top Topic Words: [u'government', u'economy', u'tax', u'america', u'spending', u'people', u'new', u'stimulus', u'time', u'democrats']"
+'Top Topic: 5'
+"Top Topic Words: [u'government', u'america', u'people', u'liberal', u'economy', u'time', u'president', u'republicans', u'american', u'kid']"
 
 Most Important Sentences...
 "The right answer for health care is not more government, it's less government."
-'I know there are people who are now talking about another stimulus bill for the economy.'
 'President Obama says he wants "public option government insurance," to give people "greater choice."'
-'The right answer is to fix the stimulus we have--throw out the liberal, big-government programs and substitute incentives that will stimulate the private sector and actually create jobs.'
-'To strengthen the economy and to create jobs, the President must stop trying to borrow this country out of a debt problem.'
+'I know there are people who are now talking about another stimulus bill for the economy.'
+'What President Obama has done these last eight months, and what he is proposing for the next three years, would not strengthen America, it would weaken America.'
+"We know that America has always endured a chorus of critics, --people who claim that every ill, every failure in the world is America's fault."
 
 Least Important Sentences...
 'And he rushed it through before anyone could even notice.'
-'Their legs were tingling.'
 "Well, he can still spin a speech, but he can't spin his record."
-'And that is having children before they are married.'
+"They were enthralled by Barack Obama's promise of near-Biblical transformations."
+'Their legs were tingling.'
 'He spoke majestically, framed by Greek columns.'
 ************************************************************************************************************************
 'Processing: 18'
 'Document Title: Mitt Romney - Values Voters Summit 2010 - 09/17/2010'
-'Top Topic: 0'
-"Top Topic Words: [u'america', u'president', u'freedom', u'jobs', u'economy', u'years', u'new', u'world', u'just', u'work']"
+'Top Topic: 5'
+"Top Topic Words: [u'government', u'america', u'people', u'liberal', u'economy', u'time', u'president', u'republicans', u'american', u'kid']"
 
 Most Important Sentences...
-'If only the President would have made the economy job one.'
+'Liberals are convinced that government knows better than the people how to run our businesses, how to choose winning technologies, how to manage healthcare, how to grow an economy, and how to order our very lives.They want to gain through government takeover what they could never achieve in the competitive economy-power and control over the people of America.'
 'Americans believe that Washington is threatening the very foundations of what has made America, America.'
 'America has been a force for good like no other in this world, and for that we make no apology.'
-'Liberals are convinced that government knows better than the people how to run our businesses, how to choose winning technologies, how to manage healthcare, how to grow an economy, and how to order our very lives.They want to gain through government takeover what they could never achieve in the competitive economy-power and control over the people of America.'
-'Since the Obama stimulus was passed, 127,000 government jobs have been created, but more than 2.4 million private sector jobs have been lost.'
+'Of course, the pundits will be right that this will not be the first time that power has been taken away from one political party and given to the other.'
+"I've often imagined what it must have been like for those first people who left Europe to immigrate to America."
 
 Least Important Sentences...
 'They misled us.'
-'Tony, I appreciate your kind introduction.'
-'It was reckless.'
 'This is who we are as a people-it is in our DNA.'
-'And he was somewhat impetuous.'
+'It was reckless.'
+'He called it ambitious.'
+'8% predicted unemployment became 10%.'
 ************************************************************************************************************************
 'Processing: 19'
 'Document Title: Mitt Romney - 5/25/10 - Annual Reagan Lecture'
-'Top Topic: 2'
-"Top Topic Words: [u'marriage', u'children', u'religion', u'family', u'people', u'said', u'marry', u'great', u'mother', u'sex']"
+'Top Topic: 8'
+"Top Topic Words: [u'simi', u'valley', u'reagan', u'provided', u'library', u'lecture', u'2010', u'annual', u'california', u'romney']"
 
 Most Important Sentences...
 'Mitt Romney gave the Annual Reagan Lecture in the Ronald Reagan Presidential Library in Simi Valley, California on May 25, 2010.'
@@ -356,84 +356,84 @@ Least Important Sentences...
 ************************************************************************************************************************
 'Processing: 20'
 'Document Title: Mitt Romney - CPAC 2009 - 02/18/10'
-'Top Topic: 1'
-"Top Topic Words: [u'government', u'economy', u'tax', u'america', u'spending', u'people', u'new', u'stimulus', u'time', u'democrats']"
+'Top Topic: 5'
+"Top Topic Words: [u'government', u'america', u'people', u'liberal', u'economy', u'time', u'president', u'republicans', u'american', u'kid']"
 
 Most Important Sentences...
 'This is the liberal agenda for government.'
-'It is right to say no to cap and trade, no to card check, no to government healthcare, and no to higher taxes.'
-'His nearly trillion dollar stimulus created not one net new job in the private sector, but it saved and grew jobs in the government sector- the one place we should have shed jobs.'
-'Liberals are convinced that government knows better than the people how to run our businesses, how to choose winning technologies, how to manage healthcare, how to grow an economy, and how to order our very lives.'
+'America reflects the values of the people who first landed here, those who founded the nation, those who won our freedom, and those who made America the leader of the world.'
+'It was Democrats who blocked him, Democrats who said "no" to his liberal agenda after they had been home to their districts and heard from the American people.'
 'And this would apply not just to government, but also to the American economy: the individual would pursue his or her happiness in freedom, independent from government dictate.'
+'Liberals are convinced that government knows better than the people how to run our businesses, how to choose winning technologies, how to manage healthcare, how to grow an economy, and how to order our very lives.'
 
 Least Important Sentences...
 'And they have been watching.'
-'Not all of it is popular.'
-'He began by claiming that he had not failed at all.'
 'As always, the Olympic Games were inspiring.'
+'Not all of it is popular.'
+'I call it reckless.'
 'Well, maybe one or two.'
 ************************************************************************************************************************
 'Processing: 21'
 'Document Title: 02/11/11 - CPAC 2011 Believe In America'
 'Top Topic: 0'
-"Top Topic Words: [u'america', u'president', u'freedom', u'jobs', u'economy', u'years', u'new', u'world', u'just', u'work']"
+"Top Topic Words: [u'america', u'president', u'world', u'years', u'believe', u'new', u'work', u'hampshire', u'state', u'crisis']"
 
 Most Important Sentences...
 'Dad always believed in America; and in that America, a lath and plaster man could work his way up to running a little car company called American Motors and end up Governor of a state where he had once sold aluminum paint.'
 'Believe in America.'
-'For my Dad, America was the land of opportunity, where free enterprise, small business and entrepreneurs were encouraged and respected.'
 "I don't apologize for America because I believe in America!"
-'Two years ago, this new President faced an economic crisis and an increasingly uncertain world.'
+'And we believe that the principles that made America the leader of the world today are the very principles that will keep America the leader of the world tomorrow.'
+"If I decide to run for President, it won't take me two years to wake up to the job crisis threatening America."
 
 Least Important Sentences...
 'Fair enough.'
+'Oh, excuse me.'
 'And his "reset program" with Russia?'
 'Saul Alinsky was out; Jeffrey Immelt was in.'
-'Oh, excuse me.'
 'This is fundamentally what conservatism is all about.'
 ************************************************************************************************************************
 'Processing: 22'
 'Document Title: 03/05/11 - Carroll County Lincoln Day Dinner'
 'Top Topic: 0'
-"Top Topic Words: [u'america', u'president', u'freedom', u'jobs', u'economy', u'years', u'new', u'world', u'just', u'work']"
+"Top Topic Words: [u'america', u'president', u'world', u'years', u'believe', u'new', u'work', u'hampshire', u'state', u'crisis']"
 
 Most Important Sentences...
 'Dad always believed in America; and in that America, a lath and plaster man could work his way up to running a little car company called American Motors and end up Governor of a state where he had once sold aluminum paint.'
 'Believe in America.'
 "I don't apologize for America because I believe in America!"
+'I refuse to believe that America is just another place on the map with a flag.'
 "Given all that America has done to lift others from poverty, given the millions of afflicted we have helped to heal and comfort, and given the hundreds of thousands of lives of America's sons and daughters that have been, and are today, sacrificed to defend freedom, I will not apologize for America!"
-'When President Obama was elected, the economy was in crisis.'
 
 Least Important Sentences...
 'They never will.'
 'But it was also exhilarating.'
-'The guy was laughing.'
 'That makes no sense at all.'
+'The guy was laughing.'
 "So that leaves 60%-the lion's share."
 ************************************************************************************************************************
 'Processing: 23'
 'Document Title: 12/19/08 - A Republican Stimulus Plan (Act Now)'
 'Top Topic: 1'
-"Top Topic Words: [u'government', u'economy', u'tax', u'america', u'spending', u'people', u'new', u'stimulus', u'time', u'democrats']"
+"Top Topic Words: [u'tax', u'spending', u'medicare', u'federal', u'government', u'plan', u'cuts', u'make', u'programs', u'stimulus']"
 
 Most Important Sentences...
-'And we should make it clear that Washington will not act to virtually impose unions on small business by eliminating the right of workers to vote by secret ballot in the workplace.'
-'And the federal government should look to ease the burden of mandates on states, like Medicaid.'
-'It is essential, therefore, that Congress and the president commit to reform entitlement spending as soon as the economy recovers.'
-"But -- and this is the crucial point -- the government can't just make itself bigger and more oppressive in the guise of stimulating the economy."
+'We should lower tax rates for middle-income families and eliminate their tax on savings altogether -- no tax on interest, dividends or capital gains.'
 'Harvard professor and economist Greg Mankiw points out that recent research confirms that tax cuts have a greater multiplier effect than new spending -- more economic bang for the federal buck.'
+'The first is that tax cuts are part of the solution.'
+'It is essential, therefore, that Congress and the president commit to reform entitlement spending as soon as the economy recovers.'
+'This translates into about $400 billion less annual consumer spending, net of government safety-net funding.'
 
 Least Important Sentences...
-'State budgets should be brought in line with those of the most efficient of their comparables.'
-'And, it should confirm that it will not tolerate deflation -- the pain of inflation pales in comparison.'
+'What is Washington waiting for?'
 'The Fed should continue to expand the money supply.'
-'That would make matters worse.'
-'State employee numbers, pensions, and health-insurance premium sharing -- as well as duplicate and ineffective agencies and programs -- should be high on the hit list.'
+'State budgets should be brought in line with those of the most efficient of their comparables.'
+'Now is the time to start.'
+'And, it should confirm that it will not tolerate deflation -- the pain of inflation pales in comparison.'
 ************************************************************************************************************************
 'Processing: 25'
 "Document Title: 05/12/11 - Mitt Romney's Michigan Presentation On Healthcare Reform"
-'Top Topic: 2'
-"Top Topic Words: [u'marriage', u'children', u'religion', u'family', u'people', u'said', u'marry', u'great', u'mother', u'sex']"
+'Top Topic: 7'
+"Top Topic Words: [u'qa', u'included', u'video', u'end', u'sled', u'water', u'shallow', u'vonetta', u'gold', u'waters']"
 
 Most Important Sentences...
 'The Q&A is included at the end of this video.'
@@ -444,140 +444,140 @@ Least Important Sentences...
 'Processing: 26'
 'Document Title: Mitt Romney Announces His 2012 Run For President'
 'Top Topic: 0'
-"Top Topic Words: [u'america', u'president', u'freedom', u'jobs', u'economy', u'years', u'new', u'world', u'just', u'work']"
+"Top Topic Words: [u'america', u'president', u'world', u'years', u'believe', u'new', u'work', u'hampshire', u'state', u'crisis']"
 
 Most Important Sentences...
 'But Dad always believed in America; and in that America, a lath and plaster man could work his way up to running a little car company called American Motors, and end up Governor of a state where he had once sold aluminum paint.'
-'It is an America of freedom and opportunity.'
 'We believe in America.'
 'I believe in that America.'
 'I know you believe in that America.'
+'I refuse to believe that America is just another place on the map with a flag.'
 
 Least Important Sentences...
 'You do.'
 'They never will.'
 'And he made it last longer.'
+'You and I understand this.'
 'He seems firmly and clearly determined to undermine our longtime friend and ally.'
-'He speaks with firmness and clarity, however, when it comes to Israel.'
 ************************************************************************************************************************
 'Processing: 28'
 'Document Title: 08/30/11 - VFW National Convention'
 'Top Topic: 4'
-"Top Topic Words: [u'world', u'israel', u'america', u'president', u'united', u'nuclear', u'defense', u'freedom', u'american', u'military']"
+"Top Topic Words: [u'israel', u'world', u'america', u'president', u'nuclear', u'united', u'defense', u'freedom', u'american', u'military']"
 
 Most Important Sentences...
 'But today we are united not only by our faith in America.'
 'I start with the fundamental conviction that America is the greatest nation in the history of the world and a force for good.'
-"Because we believe in America, we're going to keep America strong, and worthy of the great sacrifice of America's veterans and those young men and women who put their lives on the line for us even today."
 'So critical was President Obama of America before the United Nations that Fidel Castro complimented him for his "courage" and "brave gesture."'
+"Because we believe in America, we're going to keep America strong, and worthy of the great sacrifice of America's veterans and those young men and women who put their lives on the line for us even today."
 'We are united also by our concern for America.'
 
 Least Important Sentences...
 'What a disgrace.'
 'Sometimes in caskets.'
-'There is enormous waste.'
 'Thank you very much.'
-'They missed a birth or birthdays.'
+'There is enormous waste.'
+'The opposite is true.'
 ************************************************************************************************************************
 'Processing: 29'
 'Document Title: 09/02/11 - Republican National Hispanic Assembly'
 'Top Topic: 0'
-"Top Topic Words: [u'america', u'president', u'freedom', u'jobs', u'economy', u'years', u'new', u'world', u'just', u'work']"
+"Top Topic Words: [u'america', u'president', u'world', u'years', u'believe', u'new', u'work', u'hampshire', u'state', u'crisis']"
 
 Most Important Sentences...
 'But Dad always believed in America; and in that America, a lath and plaster man could work his way up to running a little car company called American Motors, and end up Governor of a state where he had once sold aluminum paint.'
-'It is an America of freedom and opportunity.'
 'I believe in that America.'
 'I know you believe in that America.'
-'And you know, if we want to create jobs, it helps to have a President who has had a job!'
+'It is an America of freedom and opportunity.'
+'I refuse to believe that America is just another place on the map with a flag.'
 
 Least Important Sentences...
 'They never will.'
 'Senator here.'
 "It's as simple as that."
 'And the peril of this mismanagement may even be more imminent.'
-'It will be bold, sweeping and specific.'
+'He failed.'
 ************************************************************************************************************************
 'Processing: 31'
 'Document Title: 10/07/11 - An American Century'
 'Top Topic: 4'
-"Top Topic Words: [u'world', u'israel', u'america', u'president', u'united', u'nuclear', u'defense', u'freedom', u'american', u'military']"
+"Top Topic Words: [u'israel', u'world', u'america', u'president', u'nuclear', u'united', u'defense', u'freedom', u'american', u'military']"
 
 Most Important Sentences...
 'In an American Century, America leads the free world and the free world leads the entire world.'
-'America must lead the world, or someone else will.'
 'As President of the United States, I will devote myself to an American Century.'
-'In an American Century, America has the strongest economy and the strongest military in the world.'
+'America must lead the world, or someone else will.'
 'In the hands of the ayatollahs, a nuclear Iran is nothing less than an existential threat to Israel.'
+'In an American Century, America has the strongest economy and the strongest military in the world.'
 
 Least Important Sentences...
-'But it is not unrealistic.'
 'And neither should our rivals.'
+'But it is not unrealistic.'
 'That is utter nonsense.'
-"This isn't our destiny, it is a choice."
 'You decide.'
+"This isn't our destiny, it is a choice."
 ************************************************************************************************************************
 'Processing: 32'
 'Document Title: 10/08/11 - Values Voters Summit 2011'
 'Top Topic: 4'
-"Top Topic Words: [u'world', u'israel', u'america', u'president', u'united', u'nuclear', u'defense', u'freedom', u'american', u'military']"
+"Top Topic Words: [u'israel', u'world', u'america', u'president', u'nuclear', u'united', u'defense', u'freedom', u'american', u'military']"
 
 Most Important Sentences...
 'In an American Century, America leads the free world and the free world leads the entire world.'
 'America must lead the world, or someone else will.'
-'In an American Century, America has the strongest economy and the strongest military in the world.'
 'As President of the United States, I will devote myself to an American Century.'
-"It's time to let a conservative businessman take the reins of government to make sure that America, not China, is the economic powerhouse of the world!"
+'In an American Century, America has the strongest economy and the strongest military in the world.'
+"I will not surrender America's role in the world."
 
 Least Important Sentences...
-'What a blessing that was.'
 "Well, we're here to collect!"
+'What a blessing that was.'
 'He faced a recession and he made it worse.'
 'I had a mother and a father at home.'
-'But marriage is more than a personally rewarding social custom.'
+'Steve Jobs was asked whether he was glad that he had children.'
 ************************************************************************************************************************
 'Processing: 33'
 'Document Title: 11/04/11 - Remarks At Americans For Prosperity\'s "Defending The American Dream Summit"'
 'Top Topic: 1'
-"Top Topic Words: [u'government', u'economy', u'tax', u'america', u'spending', u'people', u'new', u'stimulus', u'time', u'democrats']"
+"Top Topic Words: [u'tax', u'spending', u'medicare', u'federal', u'government', u'plan', u'cuts', u'make', u'programs', u'stimulus']"
 
 Most Important Sentences...
-'The plan I propose to make government simpler, smaller, and smarter represents the biggest fundamental change to the federal government in modern history.'
-'It is time to level with the American people about what it will take to cut spending and balance our budget, to set honest goals and present a credible plan to achieve them.'
 'In sum, I will make the federal government simpler, smaller, and smarter by eliminating programs, by sending programs back to the states, and by making government more productive.'
-'The American people are increasingly working to support the government.'
-"As I'm sure you've noticed, the President has been traveling the country trying to get support for his new half-a-trillion-dollar stimulus bill."
+'Second, as with Social Security, tax hikes are not the solution.'
+'The plan I propose to make government simpler, smaller, and smarter represents the biggest fundamental change to the federal government in modern history.'
+'Among these will be the future of Social Security and Medicare.'
+'It is time to level with the American people about what it will take to cut spending and balance our budget, to set honest goals and present a credible plan to achieve them.'
 
 Least Important Sentences...
+"Many believe it can't be done."
+'I believe it must be done.'
 'God bless you.'
 'You had to be an athlete to get out of them.'
-'I am not kidding.'
-"None of the above; it's the Census Bureau."
-'The footprint covered 5 football fields.'
+'It should be the other way around.'
 ************************************************************************************************************************
 'Processing: 34'
 'Document Title: 11/18/08 - Let Detroit Go Bankrupt'
-'Top Topic: 1'
-"Top Topic Words: [u'government', u'economy', u'tax', u'america', u'spending', u'people', u'new', u'stimulus', u'time', u'democrats']"
+'Top Topic: 6'
+"Top Topic Words: [u'labor', u'unions', u'check', u'card', u'charter', u'management', u'teachers', u'workers', u'schools', u'bailout']"
 
 Most Important Sentences...
-'I believe Washington should raise energy research spending to $20 billion a year, from the $4 billion that is spent today.'
-'I believe the federal government should invest substantially more in basic research -- on new energy sources, fuel-economy technology, materials science and the like -- that will ultimately benefit the automotive industry, along with many others.'
-'The federal government should also rectify the imbedded tax penalties that favor foreign carmakers.'
-"When sales are down, you don't want to lose the only people who can get them to grow."
-'It is not wrong to ask for government help, but the automakers should come up with a win-win proposition.'
+'The new management must work with labor leaders to see that the enmity between labor and management comes to an end.'
+'That means new labor agreements to align pay and benefits to match those of workers at competitors like BMW, Honda, Nissan and Toyota.'
+'In a managed bankruptcy, the federal government would propel newly competitive and viable automakers, rather than seal their fate with a bailout check.'
+'New faces should be recruited from unrelated industries -- from companies widely respected for excellence in marketing, innovation, creativity and labor relations.'
+'Detroit needs a turnaround, not a check.'
 
 Least Important Sentences...
-"From the lessons of that turnaround, and from my own experiences, I have several prescriptions for Detroit's automakers."
-'The stock collapsed.'
-'That extra burden is estimated to be more than $2,000 per car.'
+'Investments must be made for the future.'
+"It won't go overnight, but its demise will be virtually guaranteed."
+'The company itself was on life support -- banks were threatening to deal it a death blow.'
 'Manage with an eye on cash flow, balance sheets and long-term appreciation.'
-'Invest in truly competitive products and innovative technologies -- especially fuel-saving designs -- that may not arrive for years.'
+"When sales are down, you don't want to lose the only people who can get them to grow."
 ************************************************************************************************************************
 'Processing: 35'
 'Document Title: 12/07/11 - Remarks To The Republican Jewish Coalition'
 'Top Topic: 4'
-"Top Topic Words: [u'world', u'israel', u'america', u'president', u'united', u'nuclear', u'defense', u'freedom', u'american', u'military']"
+"Top Topic Words: [u'israel', u'world', u'america', u'president', u'nuclear', u'united', u'defense', u'freedom', u'american', u'military']"
 
 Most Important Sentences...
 'I want the world to know that the bonds between Israel and the United States are unshakable.'
@@ -588,41 +588,41 @@ Most Important Sentences...
 
 Least Important Sentences...
 'And this is what I will deliver, with your help.'
-'That which is earned by some is redistributed to the others.'
 'It is defining.'
-'We have wandered and drifted.'
+'That which is earned by some is redistributed to the others.'
+'Thank you.'
 'The unemployment rate has been over 8% for 34 months.'
 ************************************************************************************************************************
 'Processing: 36'
 "Document Title: 01/10/12 - Mitt Romney's New Hampshire Primary Victory Speech"
 'Top Topic: 3'
-"Top Topic Words: [u'president', u'america', u'obama', u'better', u'promise', u'remember', u'election', u'believe', u'going', u'know']"
+"Top Topic Words: [u'president', u'america', u'obama', u'better', u'remember', u'promise', u'believe', u'election', u'campaign', u'know']"
 
 Most Important Sentences...
 'President Obama wants to "fundamentally transform" America.'
 'Our campaign is about more than replacing a President; it is about saving the soul of America.'
 'That America is still out there.'
-"If this election is a bidding war for who can promise more benefits, then I'm not your President."
 'We still believe in that America.'
+'We believe in America.'
 
 Least Important Sentences...
 'Of course not.'
-'It could be worse?'
-'It could be worse?'
 'The middle class has been crushed.'
+'It could be worse?'
+'It could be worse?'
 'We must offer an alternative vision.'
 ************************************************************************************************************************
 'Processing: 37'
 "Document Title: 01/31/12 - Mitt Romney's Florida Primary Victory Speech"
 'Top Topic: 3'
-"Top Topic Words: [u'president', u'america', u'obama', u'better', u'promise', u'remember', u'election', u'believe', u'going', u'know']"
+"Top Topic Words: [u'president', u'america', u'obama', u'better', u'remember', u'promise', u'believe', u'election', u'campaign', u'know']"
 
 Most Important Sentences...
 'President Obama wants to "fundamentally transform" America.'
 'President Obama and I have two very different visions of America.'
 'That America is still out there.'
-"If this election is a bidding war for who can promise more benefits, then I'm not your President."
 'We still believe in that America.'
+'We believe in America.'
 
 Least Important Sentences...
 "We're here to collect."
@@ -634,64 +634,64 @@ Least Important Sentences...
 'Processing: 38'
 'Document Title: 02/04/12 - Nevada Caucus Victory Speech'
 'Top Topic: 3'
-"Top Topic Words: [u'president', u'america', u'obama', u'better', u'promise', u'remember', u'election', u'believe', u'going', u'know']"
+"Top Topic Words: [u'president', u'america', u'obama', u'better', u'remember', u'promise', u'believe', u'election', u'campaign', u'know']"
 
 Most Important Sentences...
 'President Obama wants to "fundamentally transform" America.'
-"If this election is a bidding war for who can promise the most benefits, then I'm not your President."
 'We still believe in that America.'
 'We believe in America.'
 'Mr. President, America has also had enough of your kind of help!'
+"If this election is a bidding war for who can promise the most benefits, then I'm not your President."
 
 Least Important Sentences...
 'No.'
 'Let me ask you a question.'
 'It was for the pursuit of happiness.'
-'Interesting?'
 'Really?'
+'Interesting?'
 ************************************************************************************************************************
 'Processing: 39'
 'Document Title: 02/10/12 - CPAC 2012'
-'Top Topic: 2'
-"Top Topic Words: [u'marriage', u'children', u'religion', u'family', u'people', u'said', u'marry', u'great', u'mother', u'sex']"
+'Top Topic: 1'
+"Top Topic Words: [u'tax', u'spending', u'medicare', u'federal', u'government', u'plan', u'cuts', u'make', u'programs', u'stimulus']"
 
 Most Important Sentences...
-'When I am President, I will preserve the Defense of Marriage Act and I will fight for a federal amendment defining marriage as a relationship between one man and one woman.'
-'I pushed for a stay of the decision, fought for a marriage amendment to our constitution, and successfully prohibited out-of-state couples from coming to our state to get married and then go home.'
-"Less than a year after I took office, the state's supreme court inexplicably found a right to same-sex marriage in our constitution."
-"My 42-year marriage to my wife, Ann; the life we've built with our five sons; and the faith that sustains us - these conservative constants have shaped my life."
-'And then I will leave Washington and go back to the life and family I love.'
+'I am the only candidate for President who has offered a sweeping, specific plan to save Social Security and reform Medicare.'
+'As President, I will not just slow the growth of government, I will cut it.'
+'And tax hikes are off the table.'
+"We will slowly and gradually raise the retirement age for Social Security - and, we will slow the growth in benefits for our nation's higher-income retirees."
+"When it comes to Medicare, tomorrow's seniors should have the freedom to choose between traditional Medicare and a range of private plans."
 
 Least Important Sentences...
 "But it's not enough to show how they have failed."
 'Many of us see both.'
+'When tough decisions had to be made, I made them.'
 'So be it.'
-"It's reckless."
-"It's immoral."
+'That is unconscionable.'
 ************************************************************************************************************************
 'Processing: 40'
 'Document Title: 02/24/12 - Speech At The Detroit Economic Club'
 'Top Topic: 1'
-"Top Topic Words: [u'government', u'economy', u'tax', u'america', u'spending', u'people', u'new', u'stimulus', u'time', u'democrats']"
+"Top Topic Words: [u'tax', u'spending', u'medicare', u'federal', u'government', u'plan', u'cuts', u'make', u'programs', u'stimulus']"
 
 Most Important Sentences...
-"Together, let's put America on the path toward more jobs, less debt, and smaller government."
+'We will pursue spending cuts that rein in the deficit, entitlement reforms that tackle our long-term debt, and a pro-growth tax policy that will create jobs, encourage private investment, and foster risk-taking and innovation.'
 'By making bold cuts in spending and commonsense entitlement reforms, we will make our government simpler, smaller, and smarter.'
-"Taken together, the plan I'm offering represents the biggest fundamental change to the federal government in modern history."
-'More jobs, less debt, smaller government.'
-'The businesses that pay taxes through the individual income tax system account for more than half of all private sector jobs in the United States.'
+'These low tax rates will encourage Americans to save and invest - and they will encourage business investment and economic growth.'
+"A few commonsense reforms will ensure we make good on our promises to today's seniors while saving Social Security and Medicare for future generations."
+'My administration will also make the hundreds of billions of dollars in cuts necessary to reduce spending to 20% of GDP by the end of my first term.'
 
 Least Important Sentences...
 'So be it.'
-'It requires a leader to call for sacrifice.'
-'I was born in Harper Hospital, and I grew up here.'
-'CAFE standards must not be overly burdensome.'
 "I've met moms and dads who are struggling to get by."
+'If you believe the disappointments of the last few years are a detour, not our destiny, then I am asking for your vote.'
+'I will cap it there.'
+'I can remember my first day at the Hampton School.'
 ************************************************************************************************************************
 'Processing: 41'
 'Document Title: 02/28/12 - Michigan/Arizona Victory Speech'
 'Top Topic: 3'
-"Top Topic Words: [u'president', u'america', u'obama', u'better', u'promise', u'remember', u'election', u'believe', u'going', u'know']"
+"Top Topic Words: [u'president', u'america', u'obama', u'better', u'remember', u'promise', u'believe', u'election', u'campaign', u'know']"
 
 Most Important Sentences...
 'Our campaign, as you know, is about restoring the promise of America.'
@@ -703,20 +703,20 @@ Most Important Sentences...
 Least Important Sentences...
 'No.'
 'What a hero.'
-'UNIDENTIFIED FEMALE: No.'
 'And he also has an extraordinary gap in his policy proposals.'
+'UNIDENTIFIED FEMALE: No.'
 'They were tireless, particularly John McCain.'
 ************************************************************************************************************************
 'Processing: 42'
 'Document Title: 03/06/12 - Super Tuesday Victory Speech'
 'Top Topic: 3'
-"Top Topic Words: [u'president', u'america', u'obama', u'better', u'promise', u'remember', u'election', u'believe', u'going', u'know']"
+"Top Topic Words: [u'president', u'america', u'obama', u'better', u'remember', u'promise', u'believe', u'election', u'campaign', u'know']"
 
 Most Important Sentences...
 'President Obama wants to raise your taxes.'
 'President Obama seems to believe he is unchecked by our Constitution.'
 'President Obama said he would create jobs.'
-"And, as President, I'm going to make sure they get it."
+'It is time to Believe in America.'
 'Times may be tough, but our citizens still believe in the promise of America.'
 
 Least Important Sentences...
@@ -728,90 +728,90 @@ Least Important Sentences...
 ************************************************************************************************************************
 'Processing: 43'
 'Document Title: 03/19/12 - Remarks In Chicago: "The Freedom To Dream"'
-'Top Topic: 0'
-"Top Topic Words: [u'america', u'president', u'freedom', u'jobs', u'economy', u'years', u'new', u'world', u'just', u'work']"
+'Top Topic: 9'
+"Top Topic Words: [u'freedom', u'president', u'dream', u'government', u'economic', u'obama', u'jobs', u'bureaucrat', u'prosperity', u'america']"
 
 Most Important Sentences...
-'In America, we would have economic freedom, just as we would have political and religious freedom.'
-'For three years, President Obama has expanded government instead of empowering the American people.'
 'Milton Friedman knew what President Obama still has not learned, even after three years and hundreds of billions of dollars in spending: The government does not create prosperity; free markets and free people do.'
-"I don't believe this President understands this fundamental secret of America."
-'Let us affirm our conviction that America is a land of opportunity and usher in a new era of enduring prosperity and American leadership.'
+'In America, we would have economic freedom, just as we would have political and religious freedom.'
+'And day by day, job-killing regulation by regulation, bureaucrat by bureaucrat, he is crushing the dream and the dreamers.'
+'Before we can create enduring prosperity, we must restore our economic freedom.'
+'For three years, President Obama has expanded government instead of empowering the American people.'
 
 Least Important Sentences...
 'There is still more we can do.'
 'It fosters competition.'
-'It sits in a residential area.'
-'Culture.'
-"It told the Sacketts they weren't allowed to go to court."
+'But this only explained part of what I saw.'
+'And, they were right.'
+'They were given no recourse, no remedy.'
 ************************************************************************************************************************
 'Processing: 44'
 'Document Title: 03/20/12 - Illinois Victory Speech'
-'Top Topic: 0'
-"Top Topic Words: [u'america', u'president', u'freedom', u'jobs', u'economy', u'years', u'new', u'world', u'just', u'work']"
+'Top Topic: 9'
+"Top Topic Words: [u'freedom', u'president', u'dream', u'government', u'economic', u'obama', u'jobs', u'bureaucrat', u'prosperity', u'america']"
 
 Most Important Sentences...
-'Three years of Barack Obama had brought us fewer jobs and shrinking paychecks, but many of us believed we were in danger of losing something more than the value of homes and 401(k)s. After the years of too many apologies and not enough jobs, historic drops in income and historic highs in gas prices, of a President who doesn\'t hesitate to use all means necessary to force Obamacare on the American public but leads from behind in world affairs, it\'s time to say, "Enough!"'
 'You and I know what President Obama still has not learned, even after three years and hundreds of billions of dollars in spending: The government does not create prosperity; prosperity is the product of free markets and free people.'
-'We still believe in America - and we deserve a President who believes in us.'
-"The simple truth is that this President just doesn't understand the genius of America's economy - or the secret of our success."
-'For 25 years, I lived and breathed jobs, business, and the economy.'
+'Three years of Barack Obama had brought us fewer jobs and shrinking paychecks, but many of us believed we were in danger of losing something more than the value of homes and 401(k)s. After the years of too many apologies and not enough jobs, historic drops in income and historic highs in gas prices, of a President who doesn\'t hesitate to use all means necessary to force Obamacare on the American public but leads from behind in world affairs, it\'s time to say, "Enough!"'
+'But day by day, job-killing regulation by job-killing regulation, bureaucrat by bureaucrat, this President is crushing the dream and the dreamers.'
+'Economic freedom is the only force that has consistently succeeded in lifting people out of poverty.'
+'The American economy is fueled by freedom.'
 
 Least Important Sentences...
+'Tomorrow, we take another.'
 'Join us.'
-'We are builders.'
-'We are Bill Gates.'
-'This election will be about principle.'
+'Mine is very different.'
 'Elections are about choices.'
+'What a great night!'
 ************************************************************************************************************************
 'Processing: 45'
 'Document Title: 09/01/04 - Remarks To The 2004 Republican National Convention'
 'Top Topic: 2'
-"Top Topic Words: [u'marriage', u'children', u'religion', u'family', u'people', u'said', u'marry', u'great', u'mother', u'sex']"
+"Top Topic Words: [u'marriage', u'religion', u'children', u'family', u'marry', u'people', u'mother', u'adults', u'said', u'child']"
 
 Most Important Sentences...
 'And at the same time, because every child deserves a mother and a father, we step forward by recognizing that marriage is between a man and a woman.'
 'We step forward by entering marriage before we enter parenthood.'
 "We step forward by expressing tolerance and respect for all God's children, regardless of their differences and choices."
 'Hard work, personal sacrifice, education, integrity and the foundation of family have been and always will be the source of our strength.'
-'On the just war our brave soldiers are fighting to protect free people everywhere, there is no question: George W. Bush is right, and the "Blame America First" crowd is wrong.'
+'We step forward, first, by never forgetting that America is a great force for good in the world, fighting for freedom and [human rights.]'
 
 Least Important Sentences...
 'Our employers and jobs are threatened by low-cost, highly skilled labor from abroad.'
-'Study that record.'
 'We need a decisive president who stands his ground.'
+'Study that record.'
 'Instead, total silence, complete reverence.'
-'Thank you.'
+'He voted no on Desert Storm in 1991 and yes on Desert Shield today.'
 ************************************************************************************************************************
 'Processing: 46'
 'Document Title: 09/22/06 - Values Voters Summit 2006'
 'Top Topic: 2'
-"Top Topic Words: [u'marriage', u'children', u'religion', u'family', u'people', u'said', u'marry', u'great', u'mother', u'sex']"
+"Top Topic Words: [u'marriage', u'religion', u'children', u'family', u'marry', u'people', u'mother', u'adults', u'said', u'child']"
 
 Most Important Sentences...
 "You can't take her out of the class because in our state and under our Constitution we can't differentiate between same sex marriage and traditional marriage."
 'Because marriage is primarily about the development and nurturing of children.'
 "I think the people I'm most upset with are people who say I agree with you, Governor; I believe in traditional marriage, but we shouldn't have a federal amendment."
 'Marriage in one state affects all of the states and therefore we have to have a federal standard that says marriage in this country is a relationship between one man and one woman.'
-"Great people come forward when there's great need because of the heart of the American people."
+'They said if heterosexual couples can marry, then to have equal rights homosexuals have to also be able to marry.'
 
 Least Important Sentences...
 'They upheld it.'
 'And therefore, this gets me to the final action point.'
-'We seek opportunities.'
 "Well that wasn't the idea."
-"And the signs and the guideposts are already there for where we're headed."
+'We seek opportunities.'
+'What a thrill that was for a lot of reasons.'
 ************************************************************************************************************************
 'Processing: 47'
 'Document Title: 10/05/06 - Liberty Sunday Address'
 'Top Topic: 2'
-"Top Topic Words: [u'marriage', u'children', u'religion', u'family', u'people', u'said', u'marry', u'great', u'mother', u'sex']"
+"Top Topic Words: [u'marriage', u'religion', u'children', u'family', u'marry', u'people', u'mother', u'adults', u'said', u'child']"
 
 Most Important Sentences...
 'Marriage is about the nurturing and development of children.'
 'Our fight for marriage, then, should focus on the needs of children, not the rights of adults.'
-'They said that if heterosexual adults can marry, then homosexual couples have to also be able to marry to have equal rights.'
 "Massachusetts is on the frontline of marriage, but unless we adopt a federal amendment to protect marriage, what's happening here will unquestionably enter every other state."
+'They said that if heterosexual adults can marry, then homosexual couples have to also be able to marry to have equal rights.'
 'This spreading secular religion -- and its substitute values -- cannot be allowed to weaken the foundation of the family, or the faith of our fathers who "more than life, their country loved."'
 
 Least Important Sentences...
@@ -824,37 +824,37 @@ Least Important Sentences...
 'Processing: 48'
 'Document Title: Mitt Romney - CPAC 2007 - 03/02/07'
 'Top Topic: 1'
-"Top Topic Words: [u'government', u'economy', u'tax', u'america', u'spending', u'people', u'new', u'stimulus', u'time', u'democrats']"
+"Top Topic Words: [u'tax', u'spending', u'medicare', u'federal', u'government', u'plan', u'cuts', u'make', u'programs', u'stimulus']"
 
 Most Important Sentences...
-"And so if we need to call on the strength of America, you don't strengthen government, you strengthen the American people."
-"And I'll fight for a new savings plan for middle class Americans as well - one that will grow the economy and help families at the same time."
-'Liberals wanted to raise taxes, but I cut government instead.'
-"The 20th Century history lesson is that America's economy is strong because we put our trust in freedom, in the American people, and in the free enterprises they create."
+'Under my plan, the amount of tax they will pay on dividends, interest and capital gains will be absolutely zero.'
+'And in each of my last three years, I submitted a budget that cut the income tax.'
 'And one more thing, I will personally lead a top to bottom review of government programs, agencies, procurement and spending .'
+"And I'll fight for a new savings plan for middle class Americans as well - one that will grow the economy and help families at the same time."
+'We made the investment tax credit permanent.'
 
 Least Important Sentences...
 '.'
 '.'
-'We removed Hussein, but afterward, we were under-prepared, under-planned, under-manned, and under-managed.'
-'They wrote our obituary last fall.'
+'We will defeat the violent jihad with a two-part strategy.'
 'John Adams, who wrote it, would be surprised.'
+'Violent [jihadists] are intent on replacing moderate Islamic governments with a Caliphate.'
 ************************************************************************************************************************
 'Processing: 49'
 'Document Title: Mitt Romney - Regent University - 05/05/07'
-'Top Topic: 2'
-"Top Topic Words: [u'marriage', u'children', u'religion', u'family', u'people', u'said', u'marry', u'great', u'mother', u'sex']"
+'Top Topic: 7'
+"Top Topic Words: [u'qa', u'included', u'video', u'end', u'sled', u'water', u'shallow', u'vonetta', u'gold', u'waters']"
 
 Most Important Sentences...
-'I came to know and respect remarkable people.'
-'In the deeper waters, life is about others: family, friends, faith, community, country, caring, commitment.'
-"There's one more thing I've seen in the people who swim in the deep waters of life."
-'My family had a summer cottage on the shores of one of the Great Lakes.'
-"If you don't respect, I mean really respect, the views of people who disagree with you, then you don't understand them yet."
+"Video of Mitt's speech begins here http://www.regent.edu/events/commencement/2007/video_high.cfm at 29:00 I don't remember when it was exactly that I finally went past the sandbar."
+'It was a dead end.'
+'All the attention, however, was on sled one, the sled that had taken the World Cup and was a lock for the Olympic Gold.'
+'Vonetta was brakeman on USA sled two.'
+'She decided that friendship and loyalty to her longtime teammate on sled two was more important than winning the gold.'
 
 Least Important Sentences...
-'I liked it there.'
+'I gave more of myself than I ever had before.'
+'I took it.'
 'The job would pay me nothing.'
-"And it's boring there."
-'I screamed at him the whole terrifying ride.'
-"And tears dripped off Vonetta's cheeks."
+"She didn't."
+'I liked it there.'
