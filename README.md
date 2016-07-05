@@ -18,5 +18,6 @@ NLP topic extraction and vectorization techniques, I created a
 summarization tool that provides an accurate summary of the most
 important talking points from any given speech. 
 
-Results show that this technique outperforms similar summarization techniques that rely only on sentence similarity.
+Results show that this technique outperforms similar summarization 
+techniques that rely only on sentence similarity.
 ```
