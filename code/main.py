@@ -18,10 +18,10 @@ if __name__ == '__main__':
     curated_url_lists = {
             'obama': '../data/obama.links',
             'romney': '../data/romney.links',
-            'trump': '../data/trump.links',
+            'trump': '../data/trump.clean.links',
             'test': '../data/tests/test.links'
     }
-    path = curated_url_lists['test']
+    path = curated_url_lists['romney']
     vocab, doc2topic, topics = extract_corpus_topics(path,10)
 
     ''' print top topics '''
