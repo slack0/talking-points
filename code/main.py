@@ -1,24 +1,31 @@
 
 from summarize_speech import *
+#from utils import *
 
 if __name__ == '__main__':
 
-    #path = '/Users/smuddu/galvanize/capstone/data/Speeches/Obama'
-    #path = '/Users/smuddu/galvanize/capstone/data/Speeches/samples'
-    #path = '/Users/smuddu/galvanize/talkingpoints/data/Romney'
-    #path = '/Users/smuddu/galvanize/talkingpoints/data/simple'
-    #path = '/Users/smuddu/galvanize/talkingpoints/data/simple_html'
-    #path = '/Users/smuddu/galvanize/talkingpoints/data/romney_raw_html'
-    path = '/Users/smuddu/galvanize/talkingpoints/data/obama_raw_html'
+    static_html_corpus = {
+            'obama': '../data/speech_corpus/obama_raw_html',
+            'romney': '../data/speech_corpus/romney_raw_html',
+            'test': '../data/speech_corpus/simple_html'
+    }
 
-    ''' using URLs '''
-    #path = '/Users/smuddu/galvanize/talkingpoints/data/just_links_obama'
+    static_text_corpus = {
+            'obama' : '../data/Obama',
+            'romney': '../data/Romney',
+            'test': '../data/tests/simple'
+    }
 
-    #vocab, doc2topic, topics, model = extract_corpus_topics(path,2)
-    extract_corpus_topics(path,10,1,5)
+    curated_url_lists = {
+            'obama': '../data/obama.links',
+            'romney': '../data/romney.links',
+            'trump': '../data/trump.links',
+            'test': '../data/tests/test.links'
+    }
+    path = curated_url_lists['trump']
+    vocab, doc2topic, topics = extract_corpus_topics(path,10)
 
     ''' print top topics '''
-    #print_top_topics(topics)
+    print_top_topics(topics)
 
-    #extract_speech_excerpts(path, vocab, doc2topic, model, 1, 3)
 
