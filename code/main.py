@@ -1,6 +1,5 @@
 
 from summarize_speech import *
-#from utils import *
 
 if __name__ == '__main__':
 
@@ -22,7 +21,7 @@ if __name__ == '__main__':
             'trump': '../data/trump.links',
             'test': '../data/tests/test.links'
     }
-    path = curated_url_lists['trump']
+    path = curated_url_lists['test']
     vocab, doc2topic, topics = extract_corpus_topics(path,10)
 
     ''' print top topics '''
