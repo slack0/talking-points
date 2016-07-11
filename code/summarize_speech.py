@@ -117,4 +117,4 @@ def extract_corpus_topics(corpus_path, n_corpus_topics, n_doc_topics=1, n_summar
             #for i in bottom_n_sentences:
             #    pp.pprint(str(raw_sentences[doc][i]))
 
-    return corpus_vocab, corpusW, topics
+    return corpus_vocab, corpusW, topics, corpus_model

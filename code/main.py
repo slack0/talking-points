@@ -21,8 +21,8 @@ if __name__ == '__main__':
             'trump': '../data/trump.clean.links',
             'test': '../data/tests/test.links'
     }
-    path = curated_url_lists['romney']
-    vocab, doc2topic, topics = extract_corpus_topics(path,10)
+    path = curated_url_lists['obama']
+    vocab, doc2topic, topics, model = extract_corpus_topics(path,10)
 
     ''' print top topics '''
     print_top_topics(topics)
