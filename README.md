@@ -82,7 +82,8 @@ vocabulary used by the speaker (Obama in this case) was specific enough
 to be captured into distinct topics.
 
 ![alt
-text](https://raw.githubusercontent.com/slack0/talking-points/master/data/topic_distribution.png "Distribution of topics for speeches")
+text](https://raw.githubusercontent.com/slack0/talking-points/master/data/topic_distribution.png
+"Distribution of topics for speeches")
 
 ### Topic Mapping to Speeches
 
@@ -104,8 +105,69 @@ a speech. Every topic is associated with a vocabulary vector. The top
 words associated with a topic can again be obtained by sorting the
 topic-vocabulary vector in descending order.
 
-Consider the example below. 
+Consider the transcript of a speech given by Obama at the
+113th Convention of the Veterans of Foreign Wars.
+
+
+```
+Commander DeNoyer, thank you for your introduction, and your service in
+Vietnam and on behalf of America's veterans. I want to thank your
+executive director, Bob Wallace; your next commander, who I look forward
+to working with, John Hamilton.  And to Gwen Rankin, Leanne Lemley, and
+the entire Ladies Auxiliary, thank you for your patriotic service to
+America.
+
+I stand before you as our hearts still ache over the tragedy in Aurora,
+Colorado.  Yesterday I was in Aurora  , with families whose loss is hard
+to imagine -- with the wounded, who are fighting to recover; with a
+community and a military base in the midst of their grief. And they told
+me of the loved ones they lost. And here today, it's fitting to recall
+those who wore our nation's uniform:
+
+These young patriots were willing to serve in faraway lands, yet they
+were taken from us here at home.  And yesterday I conveyed to their
+families a message on behalf of all Americans: We honor your loved ones.
+We salute their service. And as you summon the strength to carry on and
+keep bright their legacy, we stand with you as one united American
+family.
+
+Veterans of Foreign Wars, in you I see the same shining values, the
+virtues that make America great. When our harbor was bombed and fascism
+was on the march, when the fighting raged in Korea and Vietnam, when our
+country was attacked on that clear September morning, when our forces
+were sent to Iraq -- you answered your country's call. Because you know
+what Americans must always remember -- our nation only endures because
+there are patriots who protect it.
+
+...
+
+
+More at:
+http://www.americanrhetoric.com/speeches/barackobama/barackobama113vfw.htm
+
+```
+
+The topic clearly is associated with a discussion about wars, veterans
+and their contributions to America. The topic words associated with this
+speech -- that are extracted from NMF are:
+
+'iraq', 'veterans', 'war', 'troops', 'military', 'afghanistan', 'al qaeda', 'security', 'afghan'
 
 ### Sentence Extraction for Summarization
+
+To extract the most relevant sentences that summarize a given speech, we
+first vectorize the sentences in the speech/document. Note that this
+step typically uses the vocabulary of the document (and not of the
+corpus) to generate the sentence vector. However, in order to compare
+the similarity of a topic vector distributed over the vocabulary of an
+entire corpus, we have to normalize the document vocabulary to that of
+the entire corpus. To achieve this normalization, we take the vocabulary
+of the corpus from the TF-IDF transform (performed for topic extraction)
+and use that to obtain TF-IDF of every sentence in a document/speech.
+
+To find the most relevant sentence, we compute the cosine similarity
+between TF-IDF vector of the sentence and that of the topic vector
+associated with the sentence/document. We then rank order the sentences
+according to their cosine similarity -- and return the top sentences.
 
 

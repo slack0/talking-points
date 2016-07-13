@@ -30,7 +30,6 @@ def extract_corpus_topics(corpus_path, n_corpus_topics, n_doc_topics=1, n_summar
 
     ''' Parse contents of speech directory and get dictionaries '''
     #proc_speech, raw_speech = parse_speeches(corpus_path)
-
     #proc_speech, raw_speech, speech_titles = create_corpus_from_html(corpus_path)
 
     ### URL-based extraction test
@@ -77,7 +76,6 @@ def extract_corpus_topics(corpus_path, n_corpus_topics, n_doc_topics=1, n_summar
         print "*"*120
         pp.pprint('Processing: ' + str(doc))
         pp.pprint('Document Title: ' + str(speech_titles[doc]))
-        #pp.pprint('Title: ' + titles[doc])
 
         doc_blob = TextBlob(raw_speech[doc])
         sentence_count = 0
@@ -112,9 +110,9 @@ def extract_corpus_topics(corpus_path, n_corpus_topics, n_doc_topics=1, n_summar
             for i in top_n_sentences:
                 pp.pprint(str(raw_sentences[doc][i]))
 
-            #print ""
-            #print "Least Important Sentences..."
-            #for i in bottom_n_sentences:
-            #    pp.pprint(str(raw_sentences[doc][i]))
+            print ""
+            print "Least Important Sentences..."
+            for i in bottom_n_sentences:
+                pp.pprint(str(raw_sentences[doc][i]))
 
     return corpus_vocab, corpusW, topics, corpus_model
