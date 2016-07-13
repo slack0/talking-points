@@ -81,5 +81,10 @@ while others discuss a combination of topics. It also revals that the
 vocabulary used by the speaker (Obama in this case) was specific enough
 to be captured into distinct topics.
 
+![alt
+text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Distribution of topics for speeches")
+
+
+
 
 
