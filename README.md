@@ -151,7 +151,7 @@ The topic clearly is associated with a discussion about wars, veterans
 and their contributions to America. The topic words associated with this
 speech -- that are extracted from NMF are:
 
-'iraq', 'veterans', 'war', 'troops', 'military', 'afghanistan', 'al qaeda', 'security', 'afghan'
+'iraq', 'veterans', 'war', 'troops', 'military', 'afghanistan', 'security', 'afghan'
 
 ### Sentence Extraction for Summarization
 
