@@ -60,4 +60,26 @@ techniques that rely only on sentence similarity.
 
 ### Topic Extraction
 
+The first step in summary generation from speeches is to identify the
+topic(s) associated with any given speech. Topic extraction is effective
+if it is done on a corpus of speeches as opposed to analyzing each
+individual speech. To extract the topics of a corpus of speeches (a.k.a
+corpus), we perform vectorization of the speeches using TF-IDF
+(term-frequency inverse document frequency). The TF-IDF vectorization
+provides vectorized word representations with vocabulary set to the
+entire corpus. Using the vectorized representation of the corpus, we
+then perform non-negative matrix factorization (NMF) to bring out the
+latent topics of the corpus. NMF provides the mapping between 
+speeches-to-topics and topics-to-vocabulary.
+
+The speeches-to-topic mapping reveals interesting details about the
+distribution of topics related to each speech within the corpus. The
+figure below shows the distribution of topics related to six speeches
+from Obama. The specificity of a speech is clearly evident from this
+visual. Obviously, some speeches are concerned with specific topics,
+while others discuss a combination of topics. It also revals that the
+vocabulary used by the speaker (Obama in this case) was specific enough
+to be captured into distinct topics.
+
+
 
