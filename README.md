@@ -82,9 +82,30 @@ vocabulary used by the speaker (Obama in this case) was specific enough
 to be captured into distinct topics.
 
 ![alt
-text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Distribution of topics for speeches")
+text](https://raw.githubusercontent.com/slack0/talking-points/master/data/topic_distribution.png "Distribution of topics for speeches")
 
+### Topic Mapping to Speeches
 
+Every speech/document is a combination of topics. For instance, a press
+conference given by Obama may cover ongoing wars, the military, economy,
+health care, congress, income inequality and education. In contrast, a
+speech to a business forum may just be about the state of economy. The
+topic distributions in each of these two cases will be different. 
 
+Speeches can be considered as distributions over topics. And topics as
+distributions over vocabulary. The mapping between (speeches, topics)
+and (topics, vocabulary) is obtained from the matrix factorization.
+
+To get the most relevant summary of a speech, it is necessary to know
+which topics the speech is about. We use this intuition to map /
+associate a top topics to a speech. We use the topic vector for every
+speech and sort the vector in descending order to pick the top topic for
+a speech. Every topic is associated with a vocabulary vector. The top
+words associated with a topic can again be obtained by sorting the
+topic-vocabulary vector in descending order.
+
+Consider the example below. 
+
+### Sentence Extraction for Summarization
 
 
