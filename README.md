@@ -10,11 +10,10 @@ cases where the audience needs to get a gist of a speech or an article
 in a way that preserves the intent and the meaning of the speech. This
 problem belongs to a class of problems under [Automatic
 summarization](https://en.wikipedia.org/wiki/Automatic_summarization).
-The main idea of summarization is to find a representative subset of
-the data, which contains the information of the entire set.
-Document summarization, tries to automatically create a representative
-summary or abstract of the entire document, by finding the most informative
-sentences.
+The main idea of summarization is to create a representative summary 
+or abstract, which contains the information of the entire set.
+This is achieved by finding the most informative sentences in the 
+document/speech.
 
 ## Summary Generation from Political Speeches
 
